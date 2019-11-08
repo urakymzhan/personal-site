@@ -7,6 +7,7 @@ import {
     Link
   } from "react-router-dom";
 import GettingStarted from './GettingStarted.jsx'
+import gif from '../assets/loading.gif'
 
 const image = {
     width: 100,
@@ -24,21 +25,37 @@ const Sidebar = () => {
                     <p>Ulan Rakymzhanov <br/> Personal Blog</p>
                 </div>
                 <ul>
-                    <Link to="/getstarted"><li>Getting Started</li></Link>
+                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/howtoapply"><li>Family</li></Link>
                 </ul>
             </div>
             <div className="contents"> 
                 <Switch>
-                    <Route path="/getstarted">
+                    <Route path="/about">
                         <GettingStarted/>
                     </Route>
+                    <Route path="/howtoapply">
+                        <div className="family" style={{fontSize: '25px'}}>
+                            <p>Januzak, Bebe, Enes</p>
+                            <p style={{color: '#FF0000'}}>Kana, Guli, Ayima</p>
+                            <p>Kairat, Nuria, Azalia, Milana</p> 
+                            <p style={{color: '#4169E1'}}>Topa, Ayok, Amalia</p>
+                            <p>Kairat, Zhibek, future...</p>
+                            <p style={{color: '#808000'}}>Hi From Ulan, Jazzy</p>
+                            </div>
+                            <img src='https://media.giphy.com/media/4adI6CB0g4KTomIbKx/giphy.gif' width='200px' height='200px' alt='waive'/>
+                    </Route>
                     <Route path="/">
-                        <div>Welcome!<br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                            <p style={{color: 'red'}}>THIS WEBSITE IN THE PROCESS OF CONSRTUCTION!</p>
+                        <div>
+                            <p>
+                                Purpose of this website: <br/><br/>
+                                1. Expressing my ideas <br/>
+                                2. Educational blogs <br/>
+                                3. ...so on <br/>
+                            </p>
+                            <br/><br/><br/><br/><br/><br/>
+                            <p style={{color: '#800000'}}>THIS WEBSITE IN THE PROCESS OF BULDING!</p>
+                            <img src={gif} alt='loading' />
                         </div>
                     </Route>
                 </Switch>
