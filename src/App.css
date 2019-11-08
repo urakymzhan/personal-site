@@ -67,6 +67,10 @@ body {
     bottom: 0px;
     background: #E0E0E0;
     text-align: end;
-    padding: 10px 20px 10px 0px;
+    padding: 10px 0px;
+  }
+
+  footer a:last-child {
+    margin-right: 10px;
   }
   
