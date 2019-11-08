@@ -26,7 +26,7 @@ const Sidebar = () => {
                 </div>
                 <ul>
                     <Link to="/about"><li>About</li></Link>
-                    <Link to="/howtoapply"><li>Family</li></Link>
+                    <Link to="/family"><li>Family</li></Link>
                 </ul>
             </div>
             <div className="contents"> 
@@ -34,7 +34,7 @@ const Sidebar = () => {
                     <Route path="/about">
                         <GettingStarted/>
                     </Route>
-                    <Route path="/howtoapply">
+                    <Route path="/family">
                         <div className="family" style={{fontSize: '25px'}}>
                             <p>Januzak, Bebe, Enes</p>
                             <p style={{color: '#FF0000'}}>Kana, Guli, Ayima</p>
