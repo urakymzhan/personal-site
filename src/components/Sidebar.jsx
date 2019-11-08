@@ -41,7 +41,7 @@ const Sidebar = () => {
                             <p>Kairat, Nuria, Azalia, Milana</p> 
                             <p style={{color: '#4169E1'}}>Topa, Ayok, Amalia</p>
                             <p>Kairat, Zhibek, future...</p>
-                            <p style={{color: '#808000'}}>Hi From Ulan, Jazzy</p>
+                            <p style={{color: '#808000'}}>Hi from Ulan, Jazzy</p>
                             </div>
                             <img src='https://media.giphy.com/media/4adI6CB0g4KTomIbKx/giphy.gif' width='200px' height='200px' alt='waive'/>
                     </Route>
