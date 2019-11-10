@@ -1,4 +1,7 @@
-body {
+
+/* default styling */
+
+  body {
     background: #E0E0E0;
     margin: 0;
     padding: 0;
@@ -17,13 +20,14 @@ body {
     width:20%; 
     background:#737B80;
     overflow-x: hidden; 
-    padding-top: 80px;
+    padding-top: 60px;
     /* min-height: 100vh; */
     z-index: 1;
     display: block;
   }
   .bodyContent .sidenav ul {
     list-style-type: none;
+    padding: 0 10px 0 20px;
   }
   .bodyContent .sidenav ul a {
     color: #212529;
@@ -35,17 +39,20 @@ body {
     cursor: pointer;
   }
   .bodyContent .sidenav ul li {
-    padding: 4px 0px;
+    padding: 1px 0px;
   } 
   .profile {
     text-align: center;
     color: darkslategray;
     font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-  
   }
   .bodyContent .sidenav .profile img {
     width: 100%;
     margin-bottom: 9px;
+    width: 100px;
+    border-radius: 50px;
+    height: 100px;
+    
   }
   
   .bodyContent .contents {
@@ -69,4 +76,138 @@ body {
   footer a:last-child {
     margin-right: 10px;
   }
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+  }
+
+  .family {
+    font-size: 25px;
+  }
+  .family img {
+    width: 200px;
+    height: 200px;
+  }
   
+  /* Style differently 0 - 320px screen */
+
+/* mobiles in landscape mode style goes here */
+  @media only screen 
+  and (min-width: 0)
+  and (max-width: 480px) {
+
+
+    .bodyContent .sidenav { 
+      padding-top: 20px;
+      font-size: 6px
+    }
+    .bodyContent .sidenav ul {
+      list-style-type: none;
+      padding: 0 2px 0 4px;
+    }
+
+    .bodyContent .sidenav ul li {
+      padding: 0;
+      font-size: 6px
+    } 
+    .profile {
+      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 6px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 12.4px;
+    }
+    .bodyContent .sidenav .profile img {
+      margin-bottom: 1px;
+      width: 20px;
+      height: 20px;
+    }
+    .bodyContent .contents {
+      font-size: 6px;
+    }
+    .footer-icon {
+      width: 10px;
+      height: 10px;
+    }
+    .family {
+      font-size: 8px;
+    }
+    .family img {
+      width: 40px;
+      height: 40px;
+    }
+    
+  }
+
+/* tablets style goes here */
+  @media only screen 
+  and (min-width: 481px)
+  and (max-width: 1024px)  {
+
+    .bodyContent .sidenav { 
+      padding-top: 40px;
+      /* font-size: 10px */
+    }
+    .bodyContent .sidenav ul {
+      list-style-type: none;
+      padding: 0 4px 0 10px;
+    }
+
+    .bodyContent .sidenav ul li {
+      font-size: 10px
+    } 
+    .profile {
+      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 12.4px;
+    }
+    .bodyContent .sidenav .profile img {
+      margin-bottom: 2px;
+      width: 60px;
+      height: 60px;
+    }
+    .bodyContent .contents {
+      font-size: 10px;
+    }
+    .footer-icon {
+      width: 20px;
+      height: 20px;
+    }
+    .family {
+      font-size: 15px;
+    }
+    .family img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+/* desktops and laptops style goes here -> default one above */
+  @media only screen 
+  and (min-width: 1224px) {
+  }
+
+
+/* very large screen devices style goes here */
+  @media only screen 
+  and (min-width: 1824px) {
+
+    .bodyContent .sidenav ul a {
+      color: #212529;
+      text-decoration: none;
+      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    }
+    .bodyContent .sidenav ul li {
+      padding: 2px 0px;
+    } 
+    .profile {
+      text-align: center;
+      color: darkslategray;
+      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    }
+    .bodyContent .sidenav .profile img {
+      margin-bottom: 10px;
+      width: 120px;
+      height: 120px;
+    }
+    .footer-icon {
+      width: 32px;
+      height: 32px;
+      padding-left: 5px;
+    }
+  }

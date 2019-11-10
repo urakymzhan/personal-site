@@ -9,24 +9,18 @@ import {
 import GettingStarted from './GettingStarted.jsx'
 import gif from '../assets/loading.gif'
 
-const image = {
-    width: 100,
-    height: 100,
-    borderRadius: 400/2
-};
-
 const Sidebar = () => {
     return (
     <Router>
         <div className="bodyContent">
             <div className="sidenav">
                 <div className="profile">
-                    <Link to="/"><img src={require('../assets/profile.jpg')} style={image} alt="profile"/></Link>
+                    <Link to="/"><img src={require('../assets/profile.jpg')} alt="profile" className="profile-img"/></Link>
                     <p>Ulan Rakymzhanov <br/> Personal Blog</p>
                 </div>
                 <ul>
                     <Link to="/about"><li>About</li></Link>
-                    <Link to="/family"><li>Family</li></Link>
+                    <Link to="/family"><li>Family ASDSAD AS cdcdcd  edaadaedd  dadad</li></Link>
                 </ul>
             </div>
             <div className="contents"> 
@@ -35,15 +29,15 @@ const Sidebar = () => {
                         <GettingStarted/>
                     </Route>
                     <Route path="/family">
-                        <div className="family" style={{fontSize: '25px'}}>
+                        <div className="family">
                             <p>Januzak, Bebe, Enes</p>
                             <p style={{color: '#FF0000'}}>Kana, Guli, Ayima</p>
                             <p>Kairat, Nuria, Azalia, Milana</p> 
                             <p style={{color: '#4169E1'}}>Topa, Ayok, Amalia</p>
                             <p>Kairat, Zhibek, future...</p>
                             <p style={{color: '#808000'}}>Hi from Ulan, Jazzy</p>
-                            </div>
-                            <img src='https://media.giphy.com/media/4adI6CB0g4KTomIbKx/giphy.gif' width='200px' height='200px' alt='waive'/>
+                            <img src='https://media.giphy.com/media/4adI6CB0g4KTomIbKx/giphy.gif' alt='waive'/>
+                        </div>
                     </Route>
                     <Route path="/">
                         <div>
