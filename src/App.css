@@ -1,179 +1,175 @@
 
 /* default styling */
 
-  body {
-    background: #E0E0E0;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  background: #E0E0E0;
+  margin: 0;
+  padding: 0;
+}
   
-  /* wrapper of content and sidebar */
-  .bodyContent {
-    background: #737B80;
-    display: flex;
-    overflow-y: auto;
-  }
+/* wrapper of content and sidebar */
+.bodyContent {
+  background: #333;
+  display: flex;
+  overflow-y: auto;
+}
   
-  /* sidebar */
-  .bodyContent .sidenav { 
-    left: 0px;
-    width:20%; 
-    background:#737B80;
-    overflow-x: hidden; 
-    padding-top: 60px;
-    /* min-height: 100vh; */
-    z-index: 1;
-    display: block;
-  }
-  .bodyContent .sidenav ul {
-    list-style-type: none;
-    padding: 0 10px 0 20px;
-  }
-  .bodyContent .sidenav ul a {
-    color: #212529;
-    text-decoration: none;
-    font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-  }
-  .bodyContent .sidenav ul a:hover {
-    color: darkslategray;
-    cursor: pointer;
-  }
-  .bodyContent .sidenav ul li {
-    padding: 1px 0px;
-  } 
-  .profile {
-    text-align: center;
-    color: darkslategray;
-    font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-  }
-  .bodyContent .sidenav .profile img {
-    width: 100%;
-    margin-bottom: 9px;
-    width: 100px;
-    border-radius: 50px;
-    height: 100px;
-    
-  }
-  
-  .bodyContent .contents {
-    background:#E0E0E0;
-    width: 80%;
-    padding: 5% 10% 5% 10%;
-    min-height: 100vh;
-    text-align: center;
-  }
-  
-  /* footer */
-  footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    background: #E0E0E0;
-    text-align: end;
-    padding: 10px 0px;
+/* sidebar */
+.sidenav { 
+  top: 0px;
+  left: 0px;
+  width:20%;
+  background-color: #333;
+  overflow: hidden; 
+  padding-top: 40px;
+  box-shadow: #333 2px 2px 10px;
+  z-index: 1;
+  /* min-height: 100vh; */
+  /* display: block; */
+}
+.blog-titles {
+  list-style-type: none;
+  padding: 0 10px 0 20px;
+  color: #DADADA;
+}
+.blog-titles a {
+  color: #DADADA;
+  text-decoration: none;
+  font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.blog-titles a:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.blog-titles li {
+  padding: 6px 0px;
+} 
+.profile {
+  margin: 0 15px;
+  box-shadow: 0 3px 2px -2px gray; /* not sure if that looks better */
+  padding: 20px 0 2px 0;
+  text-align: center;
+  color: #DADADA;
+  font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.profile-img {
+  width: 100%;
+  margin-bottom: 9px;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  box-shadow: #ffffe0 0px 0px 3px;  /*  color change later */
+}
+.contents {
+  background: #FFFFFF;
+  width: 80%;
+  padding: 5% 10% 5% 10%;
+  min-height: 100vh;
+  text-align: center;
   }
 
-  footer a:last-child {
-    margin-right: 10px;
-  }
-  .footer-icon {
-    width: 30px;
-    height: 30px;
-    padding-left: 5px;
-  }
+/* footer */
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  background: #FFFFFF;
+  text-align: end;
+  padding: 10px 0px;
+}
 
-  .family {
-    font-size: 25px;
-  }
-  .family img {
-    width: 200px;
-    height: 200px;
-  }
+footer a:last-child {
+  margin-right: 10px;
+}
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.flag {
+  width: 100px;
+  height: 100px;
+}
+.introduction {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+}
   
-  /* Style differently 0 - 320px screen */
+/* Style differently 0 - 320px screen */
 
 /* mobiles in landscape mode style goes here */
-  @media only screen 
-  and (min-width: 0)
-  and (max-width: 480px) {
+@media only screen 
+and (min-width: 0)
+and (max-width: 480px) {
 
-
-    .bodyContent .sidenav { 
-      padding-top: 20px;
-      font-size: 6px
-    }
-    .bodyContent .sidenav ul {
-      list-style-type: none;
-      padding: 0 2px 0 4px;
-    }
-
-    .bodyContent .sidenav ul li {
-      padding: 0;
-      font-size: 6px
-    } 
-    .profile {
-      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 6px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 12.4px;
-    }
-    .bodyContent .sidenav .profile img {
-      margin-bottom: 1px;
-      width: 20px;
-      height: 20px;
-    }
-    .bodyContent .contents {
-      font-size: 6px;
-    }
-    .footer-icon {
-      width: 10px;
-      height: 10px;
-    }
-    .family {
-      font-size: 8px;
-    }
-    .family img {
-      width: 40px;
-      height: 40px;
-    }
-    
+  .sidenav { 
+    padding-top: 20px;
+    font-size: 6px
   }
+  .blog-titles {
+    list-style-type: none;
+    padding: 0 2px 0 4px;
+  }
+
+  .blog-titles li {
+    padding: 0;
+    font-size: 6px
+  } 
+  .profile {
+    font-size: 6px;
+    line-height: 12.4px;
+    font-weight: 500;
+  }
+  .profile img {
+    margin-bottom: 1px;
+    width: 20px;
+    height: 20px;
+  }
+  .contents {
+    font-size: 6px;
+  }
+  .footer-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .flag {
+    width: 50px;
+    height: 50px;
+  }
+  
+}
 
 /* tablets style goes here */
   @media only screen 
   and (min-width: 481px)
   and (max-width: 1024px)  {
 
-    .bodyContent .sidenav { 
-      padding-top: 40px;
-      /* font-size: 10px */
-    }
-    .bodyContent .sidenav ul {
+    .blog-titles {
       list-style-type: none;
       padding: 0 4px 0 10px;
     }
 
-    .bodyContent .sidenav ul li {
+    .blog-titles li {
       font-size: 10px
     } 
     .profile {
       font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 12.4px;
     }
-    .bodyContent .sidenav .profile img {
+    .profile-img {
       margin-bottom: 2px;
       width: 60px;
       height: 60px;
     }
-    .bodyContent .contents {
+    .contents {
       font-size: 10px;
     }
     .footer-icon {
       width: 20px;
       height: 20px;
     }
-    .family {
-      font-size: 15px;
-    }
-    .family img {
-      width: 100px;
-      height: 100px;
+    .flag {
+      width: 80px;
+      height: 80px;
     }
   }
 
@@ -187,12 +183,12 @@
   @media only screen 
   and (min-width: 1824px) {
 
-    .bodyContent .sidenav ul a {
+    .blog-titles a {
       color: #212529;
       text-decoration: none;
       font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
     }
-    .bodyContent .sidenav ul li {
+    .blog-titles li {
       padding: 2px 0px;
     } 
     .profile {
@@ -200,7 +196,7 @@
       color: darkslategray;
       font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
     }
-    .bodyContent .sidenav .profile img {
+    .profile-img {
       margin-bottom: 10px;
       width: 120px;
       height: 120px;
@@ -209,5 +205,9 @@
       width: 32px;
       height: 32px;
       padding-left: 5px;
+    }
+    .flag {
+      width: 120px;
+      height: 120px;
     }
   }

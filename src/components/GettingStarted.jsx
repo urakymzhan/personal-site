@@ -1,12 +1,10 @@
 import React from "react";
 import '../App.css'
-import flag from '../assets/flag.gif'
 
 function GettingStarted() {
     return (
         <>
-        <p>I was born in Kyrgyzstan, Central Asia.<br/></p>
-        <img src={flag} alt='flag' />
+        <p>Here will be a list of topics i want to write</p>
         </>
     );
   }

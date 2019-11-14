@@ -7,7 +7,8 @@ import {
     Link
   } from "react-router-dom";
 import GettingStarted from './GettingStarted.jsx'
-import gif from '../assets/loading.gif'
+import flag from '../assets/flag.gif'
+import profile from '../assets/profile.jpg'
 
 const Sidebar = () => {
     return (
@@ -15,41 +16,30 @@ const Sidebar = () => {
         <div className="bodyContent">
             <div className="sidenav">
                 <div className="profile">
-                    <Link to="/"><img src={require('../assets/profile.jpg')} alt="profile" className="profile-img"/></Link>
+                    <Link to="/"><img src={profile} alt="profile" className="profile-img"/></Link>
                     <p>Ulan Rakymzhanov <br/> Personal Blog</p>
                 </div>
-                <ul>
-                    <Link to="/about"><li>About</li></Link>
-                    <Link to="/family"><li>Family</li></Link>
+                <ul className="blog-titles">
+                    <Link to="/topics"><li>Upcoming Topics</li></Link>
                 </ul>
             </div>
             <div className="contents"> 
                 <Switch>
-                    <Route path="/about">
+                    <Route path="/topics">
                         <GettingStarted/>
                     </Route>
-                    <Route path="/family">
-                        <div className="family">
-                            <p>Januzak, Bebe, Enes</p>
-                            <p style={{color: '#FF0000'}}>Kana, Guli, Ayima</p>
-                            <p>Kairat, Nuria, Azalia, Milana</p> 
-                            <p style={{color: '#4169E1'}}>Topa, Ayok, Amalia</p>
-                            <p>Kairat, Zhibek, future...</p>
-                            <p style={{color: '#808000'}}>Hi from Ulan, Jazzy</p>
-                            <img src='https://media.giphy.com/media/4adI6CB0g4KTomIbKx/giphy.gif' alt='waive'/>
-                        </div>
-                    </Route>
                     <Route path="/">
-                        <div>
-                            <p>
-                                Purpose of this website: <br/><br/>
-                                1. Expressing my ideas <br/>
-                                2. Educational blogs <br/>
-                                3. ...so on <br/>
-                            </p>
-                            <br/><br/><br/><br/><br/><br/>
-                            <p style={{color: '#800000'}}>THIS WEBSITE IN THE PROCESS OF BULDING!</p>
-                            <img src={gif} alt='loading' />
+                        <div className="introduction">
+                            <h1>Hi, I'm Ulan </h1>
+                            <h4>I code, write, watch basketball, and run</h4>   
+                            <h4>Purpose of this webiste is to:</h4>
+                            <p>Express my personal ideas</p>
+                            <p>Write educational blogs</p>
+                            <p>Link to my upcoming projects</p>
+                            <p>Be useful to the world in some ways</p>   
+                            <p style={{fontSize: '10px', color: 'gray'}} >I was born in <a href="https://www.google.com/maps/place/Kyrgyzstan/@41.1354938,70.2485868,6z/data=!3m1!4b1!4m5!3m4!1s0x3897381dfce927f3:0x281058b74e88c433!8m2!3d41.4674283!4d74.5532227" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'darkred'}}> Kyrgyzstan</a>, Central Asia.</p>
+                            <img src={flag} alt='flag' className="flag"/>
+                            <p style={{fontSize: '10px', color: 'gray'}}>Click below icons to find me on social media</p>
                         </div>
                     </Route>
                 </Switch>
