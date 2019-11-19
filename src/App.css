@@ -30,12 +30,16 @@ body {
 .blog-titles {
   list-style-type: none;
   padding: 0 10px 0 20px;
-  color: #DADADA;
 }
 .blog-titles a {
   color: #DADADA;
   text-decoration: none;
-  font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  font-family: monaco, Consolas, "Lucida Console", monospace; 
+  font-size: 12px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
 }
 .blog-titles a:hover {
   color: #FFFFFF;
@@ -50,7 +54,12 @@ body {
   padding: 20px 0 2px 0;
   text-align: center;
   color: #DADADA;
-  font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  font-family: monaco, Consolas, "Lucida Console", monospace; 
+  font-size: 12px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
 }
 .profile-img {
   width: 100%;
@@ -66,6 +75,7 @@ body {
   padding: 5% 10% 5% 10%;
   min-height: 100vh;
   text-align: center;
+  font-size: 14px;
   }
 
 /* footer */
@@ -94,6 +104,17 @@ footer a:last-child {
 .introduction {
   font-family: monaco, Consolas, "Lucida Console", monospace;
 }
+
+.bornplaceAndSocialMedia {
+  color: gray;
+  font-size: 10px;
+}
+.blog1 {
+  text-indent: 0px;
+  text-align: center;
+  font-style: normal;
+}
+
   
 /* Style differently 0 - 320px screen */
 
@@ -113,7 +134,7 @@ and (max-width: 480px) {
 
   .blog-titles li {
     padding: 0;
-    font-size: 6px
+    font-size: 6px;
   } 
   .profile {
     font-size: 6px;
@@ -136,6 +157,9 @@ and (max-width: 480px) {
     width: 50px;
     height: 50px;
   }
+  .bornplaceAndSocialMedia {
+    font-size: 4px;
+  }
   
 }
 
@@ -153,7 +177,11 @@ and (max-width: 480px) {
       font-size: 10px
     } 
     .profile {
-      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 12.4px;
+      font-family: monaco, Consolas, "Lucida Console", monospace; 
+      font-size: 10px; font-style: normal; 
+      font-variant: normal; 
+      font-weight: 500; 
+      line-height: 12.4px;
     }
     .profile-img {
       margin-bottom: 2px;
@@ -170,6 +198,10 @@ and (max-width: 480px) {
     .flag {
       width: 80px;
       height: 80px;
+    }
+    .bornplaceAndSocialMedia {
+      color: gray;
+      font-size: 8px;
     }
   }
 

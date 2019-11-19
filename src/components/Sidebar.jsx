@@ -20,7 +20,7 @@ const Sidebar = () => {
                     <p>Ulan Rakymzhanov <br/> Personal Blog</p>
                 </div>
                 <ul className="blog-titles">
-                    <Link to="/topics"><li>Upcoming Topics</li></Link>
+                    <Link to="/topics"><li> my first blog - tips on self studying (in tech)</li></Link>
                 </ul>
             </div>
             <div className="contents"> 
@@ -37,9 +37,9 @@ const Sidebar = () => {
                             <p>Write educational blogs</p>
                             <p>Link to my upcoming projects</p>
                             <p>Be useful to the world in some ways</p>   
-                            <p style={{fontSize: '10px', color: 'gray'}} >I was born in <a href="https://www.google.com/maps/place/Kyrgyzstan/@41.1354938,70.2485868,6z/data=!3m1!4b1!4m5!3m4!1s0x3897381dfce927f3:0x281058b74e88c433!8m2!3d41.4674283!4d74.5532227" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'darkred'}}> Kyrgyzstan</a>, Central Asia.</p>
+                            <p className='bornplaceAndSocialMedia' >I was born in <a href="https://www.google.com/maps/place/Kyrgyzstan/@41.1354938,70.2485868,6z/data=!3m1!4b1!4m5!3m4!1s0x3897381dfce927f3:0x281058b74e88c433!8m2!3d41.4674283!4d74.5532227" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'darkred'}}> Kyrgyzstan</a>, Central Asia.</p>
                             <img src={flag} alt='flag' className="flag"/>
-                            <p style={{fontSize: '10px', color: 'gray'}}>Click below icons to find me on social media</p>
+                            <p className='bornplaceAndSocialMedia'>Click below icons to find me on social media</p>
                         </div>
                     </Route>
                 </Switch>
