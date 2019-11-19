@@ -28,6 +28,7 @@ body {
   /* display: block; */
 }
 .blog-titles {
+  overflow-y: visible;
   list-style-type: none;
   padding: 0 10px 0 20px;
 }
@@ -111,8 +112,10 @@ footer a:last-child {
 }
 .blog1 {
   text-indent: 0px;
-  text-align: center;
+  text-align: left;
   font-style: normal;
+  /* background-image: url('https://images.unsplash.com/photo-1554200856-55c05c342b96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover; */
 }
 
   

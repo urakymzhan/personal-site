@@ -20,7 +20,7 @@ const Sidebar = () => {
                     <p>Ulan Rakymzhanov <br/> Personal Blog</p>
                 </div>
                 <ul className="blog-titles">
-                    <Link to="/topics"><li> my first blog - tips on self studying (in tech)</li></Link>
+                    <Link to="/topics"><li> <span></span>Guide on self development in tech </li></Link>
                 </ul>
             </div>
             <div className="contents"> 
