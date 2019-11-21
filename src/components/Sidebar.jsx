@@ -20,12 +20,12 @@ const Sidebar = () => {
                     <p>Ulan Rakymzhanov <br/> Personal Blog</p>
                 </div>
                 <ul className="blog-titles">
-                    <Link to="/topics"><li> <span></span>Guide on self development in tech </li></Link>
+                    <Link to="/mystory"><li> <span></span>My little story and guide on self development in tech </li></Link>
                 </ul>
             </div>
             <div className="contents"> 
                 <Switch>
-                    <Route path="/topics">
+                    <Route path="/mystory">
                         <GettingStarted/>
                     </Route>
                     <Route path="/">
