@@ -186,6 +186,11 @@ and (max-width: 480px) {
   .bornplaceAndSocialMedia {
     font-size: 4px;
   }
+  .mypic {
+    height: 100px;
+    width: 100px;
+    margin: 6px;
+  }
   
 }
 
@@ -231,6 +236,12 @@ and (max-width: 480px) {
     .bornplaceAndSocialMedia {
       color: gray;
       font-size: 8px;
+    }
+    .mypic {
+      height: 160px;
+      width: 160px;
+      float: right;
+      margin: 8px;
     }
   }
 
