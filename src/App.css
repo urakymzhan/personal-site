@@ -1,107 +1,105 @@
-/* desktops and laptops style goes here */
-/* @media only screen 
+/*
 and (min-width: 1224px) {
 } */
+
 ::-webkit-scrollbar {
   display: none;
   }
+/* Globals */
+:root {
+  --font: monaco, Consolas, "Lucida Console", monospace; 
+  --sibebarBgColor: #333;
+  --mainFont: 12px;
+  --sidebarColor: #DADADA;
+  --white: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 body {
-  background: #FFFFFF;
+  background: var(--white);
   margin: 0;
   padding: 0;
+  font-family: var(--font);
 }
   
-/* wrapper of content and sidebar */
-.bodyContent {
-  background: #333;
-  display: flex;
-  overflow: hidden;
-}
-  
+
 /* sidebar */
 .sidenav { 
-  top: 0px;
-  left: 0px;
-  width:20%;
-  background-color: #333;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  background-color: var(--sibebarBgColor);
   padding-top: 40px;
-  box-shadow: #333 2px 2px 10px;
-  z-index: 1;
-  height: 100vh;
-  overflow: auto; 
+  box-shadow: #333 1px 1px 10px;
+  min-height: 100vh;
+  position: fixed;
+  overflow-x: hidden; 
+  overflow-y: auto;
+  font-size: var(--mainFont); 
+  color: var(--sidebarColor);
 }
+
 .blog-titles {
-  list-style-type: none;
   padding: 0 10px 0 20px;
 }
 .blog-titles a {
-  color: #DADADA;
-  text-decoration: none;
-  font-family: monaco, Consolas, "Lucida Console", monospace; 
-  font-size: 12px; 
-  font-style: normal; 
-  font-variant: normal; 
-  font-weight: 400; 
+  color: inherit;
   line-height: 16.8px;
 }
 .blog-titles a:hover {
-  color: #FFFFFF;
-  cursor: pointer;
+  color: var(--white);
 }
 .blog-titles li {
   padding: 6px 0px;
 } 
 .profile {
-  margin: 0 15px;
-  box-shadow: 0 3px 2px -2px gray; /* not sure if that looks better */
-  padding: 20px 0 2px 0;
   text-align: center;
-  color: #DADADA;
-  font-family: monaco, Consolas, "Lucida Console", monospace; 
-  font-size: 12px; 
-  font-style: normal; 
-  font-variant: normal; 
-  font-weight: 700; 
-  line-height: 26.4px;
+  font-weight: bold; 
+  line-height: 22px;
 }
 .profile-img {
-  width: 100%;
-  margin-bottom: 9px;
   width: 100px;
-  border-radius: 50%;
   height: 100px;
-  box-shadow: #ffffe0 0px 0px 3px;  
+  border-radius: 50%; 
+  transition: 0.8s linear;
+}
+.profile-img:hover {
+  transform: scale(1.1);
 }
 
+/*  Content */
 .contents {
-  background: #FFFFFF;
-  width: 80%;
-  padding: 3% 10% 5% 10%;
-  height: 100vh;
-  font-family: monaco, Consolas, "Lucida Console", monospace; 
-  font-size: 14px;
+  margin-left: 20%;
+  padding: 4% 2%;
+  font-size: var(--mainFont);
   overflow: auto;
   }
 
+/*  Footer */
 footer {
   position: fixed;
-  width: 100%;
-  bottom: 0px;
-  background: #FFFFFF;
-  text-align: end;
-  padding: 10px 0px;
+  bottom: 0;
+  right: 0;
+  /* background: orange; */
+  text-align: center;
+  padding: 5px;
 }
-
-footer a:last-child {
+footer a {
   margin-right: 10px;
 }
 .footer-icon {
   width: 30px;
   height: 30px;
-  padding-left: 5px;
 }
 
+/*  Welcome Page Text */
 .introduction {
   text-align: center;
 }
@@ -122,21 +120,15 @@ footer a:last-child {
   margin: 10px;
 }
 .blog1 a {
-  text-decoration: none;
-  color: darkblue;
+  color: blue;
   text-align: justify;
 }
 .blog1 a::before {
 content: "+";
 }
 
-  
-
-
-
+  /* -------- simplify medias later ------- */
 /* Ideally style differently 0 - 320px screen */
-
-
 
 
 /* mobiles in landscape mode style goes here */

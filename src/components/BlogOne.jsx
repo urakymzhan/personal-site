@@ -2,7 +2,7 @@ import React from "react";
 import '../App.css'
 import mypic from '../assets/4.jpg'
 
-function GettingStarted() {
+function BlogOne() {
     return (
         <div className="blog1">
         
@@ -94,4 +94,4 @@ function GettingStarted() {
   );
 }
 
-export default GettingStarted;
+export default BlogOne;
