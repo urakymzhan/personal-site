@@ -9,27 +9,27 @@ function BlogOne() {
          <h4>Little personal but still important</h4>
           <p>
           <img src={mypic} alt="mypic" className="mypic"/>
-            Everyone has their own story. Knowingly that more challenges and experiences are waiting for me in the future, i want to share my couple cents on helping someone to never lose hope and fight for your future. 
-            I was really good at chemistry in high school years and even had my own room to study. I didn't have to attend regular classes because school wanted me to represent them in the olympiads. 
-            That lead me to study abroad (Istanbul, Turkey) and pursue chemistry as a career. But overtime things got changed, i couldn't enjoy classes. I felt like i knew most of the topics already from competing in olympiads. 
-            So i started looking for other inspirations. Luckily not bad ones. Even though i used sit and study a lot, because of my fathers genetics (he was a pro wrestler) i had a good sense and enthusiast in all kinds of sports. 
-            In Turkey most of the students/teenagers play soccer so it got my curiosity. From rejection of teams to my final years in univeristy i was able to represent our city's soccer with other city teams. 
+            Everyone has their own story. Knowingly that more challenges, experiences awaiting for me in the future, i want to share my couple cents on helping someone to never lose hope and fight for your future. 
+            I got interested in chemistry in high school years and even had my own room to study. I didn't have to attend regular classes because school wanted me to represent them in the national olympiads. 
+            That lead me to study abroad (Istanbul, Turkey) and pursue chemistry as a career. But overtime things got changed, i couldn't enjoy classes. I felt like i knew most of the topics already from back in days competing in olympiads. 
+            So i started looking for other inspirations. Luckily not bad ones. Even though i used to sit and study a lot, because of my fathers genetics (he was a pro wrestler) i had a good sense and enthusiast in all kinds of sports. 
+            In Turkey most of the students/teenagers play soccer so it got curiosity out of me. I got rejected from teams my inital years. But iny my final years in univeristy i was able to get into a soccer team that ended up representing our city. 
             At that time that was a huge achievement for me. At that point i understood if i believe in something and give my best there is nothing to stop me. You might not be a legend but you will be your best at one thing and believe me you will be proud of it.
             That will affect your upcoming decisions in your life. <br /><br />
-            Now sports aside, i remember thinking how to spent my evenings effectively. Becuase i lost my motivation to chemistry. I was always a science lover or at least a thinker and planner. But now thats gone. 
-            Thanks to internet i was able to find something that i enjoy. I wasn't in Silicon Valley at that time so few used to talk about tech. I started spending hours just creating static webpages with HTML and CSS. 
-            It didn't have to function i just loved what i created and how it looked. Long story short that curiosity got me into unpaid internships, even unpaid full timers and doing my masters in computer science. 
-            I told myself that i won't be accepting money from my parents. I got a loan of 3k$ in my home country and flew to United States to pursue my masters. By the way i paid off that loan in 2 years. Oh boy if i knew that is going to be a tough epxerience. 
-            But i used to never complain. After arriving to Missouri i had to pay my school a good amount of money for 3 month. In my first month i understood i can't afford that. I was miserable because in my home country i had everything. My family was well funded. 
-            But i always wanted to build my life on my own. After that 1st semester i transferred to cheap grad school in Chicago. I was a bit releaved financially but worst was waiting for me. In that semester school told us that they couldn't get accrediation from goverenment so they told us to transfer or wait until the end of semester. 
+            Now sports aside, i remember thinking how to spent my evenings effectively. Becuase i lost my motivation to chemistry i had to find somehting in replace. Science was always a big part of life. But now thats gone. 
+            Thanks to internet i was able to find something that i enjoyed. I wasn't in Silicon Valley at that time so few people used to talk about technology in my circle. I started spending hours just creating static webpages with HTML/CSS. 
+            Even though they weren't functional, i just loved the way they looked. Long story short that curiosity got me into unpaid internships, even unpaid full time jobs and doing my masters in CS. 
+            Taking money from my parents when you passed 20 years was not an option. So, i got a loan of 3k$ in my home country and flew to United States to pursue my masters. I paid off that loan in 2 years. If i knew at that time that these decisions are going to be tough experiences. 
+            But learnt to never complain. After arriving to Missouri i had to pay my school a good amount of money for 3 month. In my first month i understood i can't afford that. I was miserable because in my home country i had everything. My family was well funded. 
+            But i always wanted to build my life on my own. After that 1st semester transferred to cheaper grad school in Chicago. I was a bit releaved financially but worst thing was waiting for me. After first semester school told us that they couldn't get accrediation from goverenment so they told us to transfer or wait until the end of semester. 
             By that time i was working on CPT outside the school and that allowed me to be flexible to some point. Most of the schools don't have a right to offer CPTs from the first semester so i had to stay otherwise i will lose my job which will lead me to lose everyhting. 
-            Becuase i had to pay my school 1200$ every month plus my personal expenses and my only savior was my job. One day grad school told me that they are in talks with Roosevelt Unviversity and Chicago State University. I ended up chosing Roosevlet University because it was closer to where i live and it was private. 
+            One day grad school told me that they are in talks with Roosevelt Unviversity and Chicago State University. I ended up chosing Roosevlet University because it was closer to where i live and it was private. 
             Hardest thing in this journey is not always financial situations. Its the standard you put in yourself. Always try to be the best at what you do and set expectations properly so you don't get burned out or discoureged.<br />
             </p>
 
             <h4>Technical Part</h4>
 
-            <p> Throught this years i was enough lucky to have a sense to discover and improve myself continuously. I put up these links together because i am seeing a lot of bootcamp or short term school graduates not being able to sit for long hours to prioratize the topics and study better. </p>
+            <p> Throught this years i was lucky enough to have a motivation to discover and improve myself continuously. I put up these links together because i am seeing a lot of bootcamps or short term school graduates lacking the depth kmowledge. Prioratize the topics and study better. </p>
            
             <p>
                 1. If you are lacking in CS concepts. Refere to:<br/>
@@ -84,12 +84,10 @@ function BlogOne() {
                 <a href="https://www.testdome.com" target="_blank" rel="noopener noreferrer"> testdome.com </a> <br />
             </p>
             <p>
-                10. Finally, try to do side projects as much as possible. Even if it doesn't make sense at the beggining. You can't master one thing
-                  by just passively looking or reading it. You can't learn programming by just watching YouTube videos. 
-                  Put project on the side and try to implement new features you learned to that project. 
-                  You will be amazed knowing how much you actually learned just from wathing or listening. Because many things will
-                  break if you want it or not. Good luck in your endeavours!
+                10. Finally, try to do as many side projects as possible. Even if it doesn't make sense at the beggining. You can't master one thing
+                by just passively watching videos. Put project on the side and try to implement new features you learned to that project.
             </p>
+            <h5> Good luck in your endeavours! </h5>
     </div>
   );
 }

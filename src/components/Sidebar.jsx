@@ -12,7 +12,10 @@ const Sidebar = () => {
             </div>
             <ul className="blog-titles">
                 <Link to="/mystory">
-                    <li> - My little story and guide on self development in tech </li>
+                    <li> - Little story and guide on self development in tech </li>
+                </Link>
+                <Link to="/projects">
+                    <li style={{color: "#c1eef4"}}> - Projects</li>
                 </Link>
             </ul>
         </div>
