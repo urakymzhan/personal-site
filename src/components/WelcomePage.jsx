@@ -6,8 +6,8 @@ const WelcomePage = () => {
     return (
         <div className="introduction">
             <h1>Hi, I'm Ulan </h1>
-            <h4>I code, write, watch basketball, and run</h4>   
-            <h4>Purpose of this webiste is to:</h4>
+            <h4>I like to code, hike and watch basketball</h4>   
+            <h4>Purpose of this website is to:</h4>
             <p>Express my personal ideas</p>
             <p>Write educational blogs</p>
             <p>Link to my upcoming projects</p>

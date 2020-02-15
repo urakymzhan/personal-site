@@ -15,7 +15,7 @@ const Sidebar = () => {
                     <li> - Little story and guide on self development in tech </li>
                 </Link>
                 <Link to="/projects">
-                    <li style={{color: "#c1eef4"}}> - Projects</li>
+                    <li style={{color: "#c1eef4"}}> <span style={{color: "var(--sidebarColor)"}}>-</span> Projects</li>
                 </Link>
             </ul>
         </div>

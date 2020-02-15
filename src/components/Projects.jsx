@@ -1,37 +1,41 @@
 import React from "react";
-import '../App.css';
+import '../styles/projects.css';
 import forward from '../assets/arrowRight.png'
- 
-const projectsStyle = {
-   textAlign: "center",
-}
-const p1Style = {
-    border: "4px solid #333333",
-    borderRadius: "5px",
-    width: "50%",
-    margin: "0 auto",
-    padding: "10px"
-}
-const forwardStyle = {
-    width: "20px",
-    height: "20px"
-}
-const aStyle = {
-    fontSize: "20px",
-    color: "gray"
-}
-function BlogOne() {
+
+function Projects() {
     return (
-        <div style={projectsStyle}className="projects">
-            <div class="p1" style={p1Style}>
-                <a style={aStyle} href="https://nba-pelicans.herokuapp.com/"> 
-                    NBA Scores and News {" "}
-                    <img style={forwardStyle} src={forward} alt="forwarding" />
-                </a>
+        <div className="projects">
+            <h5> All projects has github link </h5>
+            <hr />
+            <br />
+            <div className="row">
+                <div className="p1 row1">
+                <a href="https://nba-pelicans.herokuapp.com/" target="_blank" rel="noopener noreferrer"> 
+                        NBA Scores and News {" "}
+                        <img src={forward} alt="forwarding" />
+                    </a>
+                    <p>Get updates of latest NBA news and scores</p>
+                </div>
+                <div className="p1 row1">
+                    <a href="https://upbeat-morse-c54379.netlify.com/" target="_blank" rel="noopener noreferrer"> 
+                        InstaChat {" "}
+                        <img src={forward} alt="forwarding" />
+                    </a>
+                    <p>Create rooms and chat with your friends</p>
+                </div>
             </div>
             
+            <div className="row">
+                <div className="p1 row2">
+                    <a href="https://contact-form-ulan.herokuapp.com/" target="_blank" rel="noopener noreferrer"> 
+                        Submission Form {" "}
+                        <img src={forward} alt="forwarding" />
+                    </a>
+                    <p>Collect information from people </p>
+                </div>
+            </div>            
         </div>
   );
 }
 
-export default BlogOne;
+export default Projects;

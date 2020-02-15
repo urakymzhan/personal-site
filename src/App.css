@@ -131,7 +131,7 @@ content: "+";
 /* Ideally style differently 0 - 320px screen */
 
 
-/* mobiles in landscape mode style goes here */
+/* mobiles in landscape mode  */
 @media only screen 
 and (min-width: 0)
 and (max-width: 480px) {
@@ -186,7 +186,7 @@ and (max-width: 480px) {
   
 }
 
-/* tablets style goes here */
+/* tablets */
   @media only screen 
   and (min-width: 481px)
   and (max-width: 1024px)  {
@@ -243,31 +243,4 @@ and (max-width: 480px) {
   @media only screen 
   and (min-width: 1824px) {
 
-    .blog-titles a {
-      color: #212529;
-      text-decoration: none;
-      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-    }
-    .blog-titles li {
-      padding: 2px 0px;
-    } 
-    .profile {
-      text-align: center;
-      color: darkslategray;
-      font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-    }
-    .profile-img {
-      margin-bottom: 10px;
-      width: 120px;
-      height: 120px;
-    }
-    .footer-icon {
-      width: 32px;
-      height: 32px;
-      padding-left: 5px;
-    }
-    .flag {
-      width: 120px;
-      height: 120px;
-    }
   }
