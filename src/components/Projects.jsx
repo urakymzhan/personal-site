@@ -33,6 +33,13 @@ function Projects() {
                     </a>
                     <p>Collect information from people </p>
                 </div>
+                <div className="p1 row2">
+                    <a href="https://hajime-player.herokuapp.com/" target="_blank" rel="noopener noreferrer"> 
+                        Hajime {" "}
+                        <img src={forward} alt="forwarding" />
+                    </a>
+                    <p>Dedicated to one of my favorite artist</p>
+                </div>
             </div>            
         </div>
   );
