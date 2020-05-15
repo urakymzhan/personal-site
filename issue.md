@@ -1,0 +1,1 @@
+followed links when depolyed: https://skryvets.com/blog/2018/09/20/an-elegant-solution-of-deploying-react-app-into-a-subdirectory/

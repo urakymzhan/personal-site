@@ -1,0 +1,11 @@
+.blogs-wrapper {
+    text-align: center;
+    overflow: hidden;
+}
+
+.blog-titles-content {
+   text-align: left;
+}
+.blog-titles-content a {
+    color: purple;
+}

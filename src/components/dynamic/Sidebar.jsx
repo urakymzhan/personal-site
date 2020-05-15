@@ -1,7 +1,6 @@
 import React from "react";
-import '../App.css'
 import { Link } from "react-router-dom";
-import profile from '../assets/profile.jpg'
+import profile from '../../assets/profile.jpeg'
 
 const Sidebar = () => {
     return (
@@ -11,8 +10,8 @@ const Sidebar = () => {
                 <p>Ulan Rakymzhanov <br/> Personal Blog</p>
             </div>
             <ul className="blog-titles">
-                <Link to="/mystory">
-                    <li> - Little story and guide on self development in tech </li>
+                <Link to="/blogs">
+                    <li> - Blogs </li>
                 </Link>
                 <Link to="/projects">
                     <li style={{color: "#c1eef4"}}> <span style={{color: "var(--sidebarColor)"}}>-</span> Projects</li>

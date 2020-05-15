@@ -1,0 +1,9 @@
+.blog2 h2 {
+    color: gray;
+}
+.blog2 li:nth-child(even) {
+    color: #BA2D0B;
+}
+.blog2 em {
+    color: #118ab2;
+}

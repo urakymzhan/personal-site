@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/projects.css';
-import forward from '../assets/arrowRight.png'
+import '../../styles/projects.css';
+import forward from '../../assets/arrowRight.png'
 
 function Projects() {
     return (

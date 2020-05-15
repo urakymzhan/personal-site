@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import "./App.css"
-import Footer from './components/Footer.jsx'
-import Sidebar from './components/Sidebar.jsx'
-import Content from './components/Content.jsx'
+import "./styles/App.css"
+import { Sidebar, Content } from './components/dynamic';
+import { Footer } from './components/static';
 import { BrowserRouter as Router } from "react-router-dom";
 
 

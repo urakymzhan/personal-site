@@ -1,6 +1,5 @@
 import React from "react";
-import '../App.css'
-import mypic from '../assets/4.jpg'
+import mypic from '../../assets/4.jpeg'
 
 function BlogOne() {
     return (
