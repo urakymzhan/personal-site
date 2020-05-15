@@ -1,1 +1,2 @@
-followed links when depolyed: https://skryvets.com/blog/2018/09/20/an-elegant-solution-of-deploying-react-app-into-a-subdirectory/
+followed this link when depolyed: 
+https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6

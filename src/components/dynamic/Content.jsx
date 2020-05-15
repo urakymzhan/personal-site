@@ -23,8 +23,8 @@ const Content = () => {
                         return (
                             <Route
                                 key={blog.id} 
-                                path={`/blogs/${blog.link}`} 
-                                render={(props) => <Blog {...props}/>}
+                                path={`/blogs/:${blog.link}`} 
+                                component={Blog}
                             />
                         )
                     })
@@ -32,9 +32,9 @@ const Content = () => {
                 <Route path="/projects">
                     <Projects />
                 </Route>
-                {/* <Route path="*">
+                <Route path="*">
                     <NoMatch/>
-                </Route> */}
+                </Route>
             </Switch>
         </div>
     );
