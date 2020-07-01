@@ -1,60 +1,57 @@
-
 .projects {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
- }
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
- .projects .p1 {
-    background-image: linear-gradient(to right, #998d23, #23998d);
-    border-radius: 5px;
-    width: 40%;
-    padding: 8px;
-    transition: 1.5s;
-    cursor: pointer;
+.project-card {
+  background-image: linear-gradient(to right, #998d23, #23998d);
+  border-radius: 5px;
+  flex: 0.45;
+  padding: 8px;
+  transition: 1.5s;
+  cursor: pointer;
 }
-.p1 img {
-    width: 20px;
-    height: 20px;
+.project-card img {
+  width: 20px;
+  height: 20px;
 }
-.p1 a {
-    font-size: 20px;
-    color: inherit;
+.project-card a {
+  font-size: 18px;
+  color: inherit;
 }
-.p1:hover {
-    background: #333;
-    color: #fff;
+.project-card:hover {
+  background: #333;
+  color: #fff;
 }
-.p1:hover img {
-    background: #fff;
-    border-radius: 100px;
+.project-card:hover img {
+  background: #fff;
+  border-radius: 100px;
 }
-.p1:hover a {
-    color: #ffe69b;
+.project-card:hover a {
+  color: #ffe69b;
 }
 
-/* mobiles in landscape mode  */
-@media only screen and (min-width: 0) and (max-width: 480px) {
-    .p1 a {
+/* MOBILE */
+@media (max-width: 700px) {
+      .row {
+        margin-bottom: 0;
+      }
+      .project-card {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+      }
+      .project-card img {
+        width: 10px;
+        height: 10px;
+      }
+      .project-card a {
         font-size: 12px;
-    }
-  
+        color: inherit;
+      }
 }
-
-/* tablets */
-  @media only screen and (min-width: 481px) and (max-width: 1024px)  {
-    .p1 a {
-        font-size: 14px;
-    }
-    .p1 img {
-        width: 14px;
-        height: 14px;
-    }
-  }
-
-

@@ -5,9 +5,8 @@ const Home = () => {
     return (
         <div className="introduction">
             <h1>Hi, I'm Ulan </h1>
-            <p style={{color: "gray", fontStyle:"italic"}}>NOTE: if you came for bootcampAvenue. It will be available soon at www.bootcampAvenue.com</p>
-            <h4>I like to transform my ideas into code, hike and watch basketball</h4>   
-            <h4>Purpose of this website is to:</h4>
+            <p>I like to transform my ideas into code, hike and watch basketball</p>   
+            <h3>Purpose of this website:</h3>
             <p>Express my personal ideas</p>
             <p>Link to my projects</p>
             <p>Be useful to the world in some ways</p>   

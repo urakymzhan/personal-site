@@ -1,16 +1,13 @@
-/*
-and (min-width: 1224px) {
-} */
 
 ::-webkit-scrollbar {
   display: none;
-  }
+}
 /* Globals */
 :root {
-  --font: monaco, Consolas, "Lucida Console", monospace; 
+  --font: monaco, Consolas, "Lucida Console", monospace;
   --sibebarBgColor: #333;
   --mainFont: 12px;
-  --sidebarColor: #DADADA;
+  --sidebarColor: #dadada;
   --white: #fff;
 }
 ul {
@@ -27,10 +24,9 @@ body {
   padding: 0;
   font-family: var(--font);
 }
-  
 
 /* sidebar */
-.sidenav { 
+.sidenav {
   top: 0;
   left: 0;
   bottom: 0;
@@ -40,9 +36,9 @@ body {
   box-shadow: #333 1px 1px 10px;
   min-height: 100vh;
   position: fixed;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   overflow-y: auto;
-  font-size: var(--mainFont); 
+  font-size: var(--mainFont);
   color: var(--sidebarColor);
 }
 
@@ -58,16 +54,16 @@ body {
 }
 .blog-titles li {
   padding: 6px 0px;
-} 
+}
 .profile {
   text-align: center;
-  font-weight: bold; 
+  font-weight: bold;
   line-height: 22px;
 }
 .profile-img {
   width: 100px;
   height: 100px;
-  border-radius: 50%; 
+  border-radius: 50%;
   transition: 0.8s linear;
 }
 .profile-img:hover {
@@ -81,7 +77,7 @@ body {
   font-size: var(--mainFont);
   overflow: auto;
   min-height: 100vh;
-  }
+}
 /*  Footer */
 footer {
   position: fixed;
@@ -99,17 +95,15 @@ footer a {
   height: 30px;
 }
 
-/*  Welcome Page Text */
+/*  Home Text */
 .introduction {
   text-align: center;
   padding-top: 5px;
 }
-
 .flag {
   width: 100px;
   height: 100px;
 }
-
 .bornplaceAndSocialMedia {
   color: gray;
   font-size: 10px;
@@ -125,123 +119,30 @@ footer a {
   text-align: justify;
 }
 .blog1 a::before {
-content: "+";
+  content: "+";
 }
 
-  /* -------- simplify medias later ------- */
-/* Ideally style differently 0 - 320px screen */
-
-
-/* mobiles in landscape mode  */
-@media only screen 
-and (min-width: 0)
-and (max-width: 480px) {
-
-  .sidenav { 
-    padding-top: 20px;
-    font-size: 6px
-  }
+/* MOBILE */
+@media (max-width: 700px) {
   .blog-titles {
-    list-style-type: none;
     padding: 0 2px 0 4px;
   }
-
   .blog-titles li {
     padding: 2px 0;
-  } 
-
-  .blog-titles a {
-    font-size: 6px; 
-    font-weight: 100; 
-    line-height: 10px;
   }
-  .profile {
-    font-size: 6px;
-    line-height: 8px;
-    font-weight: 300;
+  .blog-titles a {
+    font-size: 10px;
+  }
+  .profile p {
+    display: none;
   }
   .profile img {
-    margin-bottom: 1px;
-    width: 20px;
-    height: 20px;
-  }
-  .contents {
-    font-size: 6px;
-  }
-  .footer-icon {
-    width: 10px;
-    height: 10px;
-  }
-  .flag {
-    width: 50px;
-    height: 50px;
-  }
-  .bornplaceAndSocialMedia {
-    font-size: 4px;
+    width: 80%;
+    height: auto;
   }
   .mypic {
     height: 100px;
     width: 100px;
     margin: 6px;
   }
-  
 }
-
-/* tablets */
-  @media only screen 
-  and (min-width: 481px)
-  and (max-width: 1024px)  {
-
-    .blog-titles {
-      list-style-type: none;
-      padding: 0 4px 0 10px;
-    }
-
-    .blog-titles li {
-      padding: 4px 0px;
-    } 
-    .blog-titles a {
-      font-weight: 200; 
-      line-height: 14px;
-      font-size: 10px;
-    }
-    .profile {
-      font-size: 10px; 
-      font-weight: 500; 
-      line-height: 12.4px;
-    }
-    .profile-img {
-      margin-bottom: 2px;
-      width: 60px;
-      height: 60px;
-    }
-    .contents {
-      font-size: 10px;
-    }
-    .footer-icon {
-      width: 20px;
-      height: 20px;
-    }
-    .flag {
-      width: 80px;
-      height: 80px;
-    }
-    .bornplaceAndSocialMedia {
-      color: gray;
-      font-size: 8px;
-    }
-    .mypic {
-      height: 160px;
-      width: 160px;
-      float: right;
-      margin: 8px;
-    }
-  }
-
-
-
-/* very large screen devices style goes here */
-  @media only screen 
-  and (min-width: 1824px) {
-
-  }
