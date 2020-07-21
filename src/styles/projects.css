@@ -5,8 +5,7 @@
   padding-bottom: 50px;
 }
 #git-link {
-  color: #730073;
-  opacity: 0.6;
+  color: gray;
 }
 .row {
   display: flex;
@@ -30,6 +29,9 @@
   font-size: 18px;
   color: inherit;
 }
+.project-card p {
+  color:  #333;
+}
 .project-card:hover {
   background: #333;
   color: #fff;
@@ -40,6 +42,16 @@
 }
 .project-card:hover a {
   color: #ffe69b;
+}
+.project-card:hover p {
+  color: #fff;
+}
+#stack span {
+  background-color: #3f51b5;
+  padding: 1px 5px;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 900;
 }
 
 /* MOBILE */
@@ -58,5 +70,8 @@
       .project-card a {
         font-size: 12px;
         color: inherit;
+      }
+      .project-card p {
+        font-size: 10px;
       }
 }

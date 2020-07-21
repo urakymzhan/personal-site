@@ -15,7 +15,6 @@ function BlogTwo() {
     return (
         <div className="blog2">
             <ReactMarkdown source={blog.blog}/>
-           
         </div>
     );
 }
