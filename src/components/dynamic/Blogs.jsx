@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { blogs } from "../blogs/headline";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { blogs } from '../blogs/headline';
 import './style/blogs.css';
 
 export default function Blogs() {
@@ -17,7 +17,7 @@ export default function Blogs() {
               }}
             >
               <h4>
-                {blog.id} - {blog.title}
+                {blog.id}. {blog.title}
               </h4>
             </Link>
           );

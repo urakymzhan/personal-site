@@ -1,0 +1,12 @@
+h2 {
+  text-align: center;
+}
+section {
+  border: 1px solid lightsalmon;
+  margin-bottom: 10px;
+}
+
+.front-end-video {
+  width: 80%;
+  height: 400px;
+}

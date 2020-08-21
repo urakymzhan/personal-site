@@ -1,0 +1,9 @@
+h2 {
+  color: rgb(105, 102, 102);
+}
+.blog-content li:nth-child(even) {
+  color: #94095f;
+}
+em {
+  color: #118ab2;
+}

@@ -1,14 +1,14 @@
-
 ::-webkit-scrollbar {
   display: none;
 }
 /* Globals */
 :root {
-  --font: monaco, Consolas, "Lucida Console", monospace;
+  --font: monaco, Consolas, 'Lucida Console', monospace;
   --sibebarBgColor: #333;
   --mainFont: 12px;
   --sidebarColor: #dadada;
   --white: #fff;
+  --darkred: darkred;
 }
 ul {
   list-style: none;
@@ -54,6 +54,7 @@ body {
 }
 .blog-titles li {
   padding: 6px 0px;
+  color: yellowgreen;
 }
 .profile {
   text-align: center;
@@ -68,6 +69,10 @@ body {
 }
 .profile-img:hover {
   transform: scale(1.1);
+}
+#pblog-txt {
+  color: #c1eef4;
+  font-size: 10px;
 }
 
 /*  Content */
@@ -101,8 +106,8 @@ footer a {
   padding-top: 5px;
 }
 .flag {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 .bornplaceAndSocialMedia {
   color: gray;
@@ -119,7 +124,7 @@ footer a {
   text-align: justify;
 }
 .blog1 a::before {
-  content: "+";
+  content: '+';
 }
 
 /* MOBILE */

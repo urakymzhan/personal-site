@@ -1,22 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import blogtwo from './content/blogtwo.md';
 import ReactMarkdown from 'react-markdown';
-import './style/blogtwo.css';
+import './style/blogs.css';
 
 function BlogTwo() {
+  const [blog, setBlog] = useState('');
 
-    const [blog, setBlogTwo] = useState('');
-
-    useEffect(() => {
-        fetch(blogtwo).then((response) => response.text()).then((text) => {
-            setBlogTwo({ blog: text })
-          })
-    }, [])
-    return (
-        <div className="blog2">
-            <ReactMarkdown source={blog.blog}/>
-        </div>
-    );
+  useEffect(() => {
+    fetch(blogtwo)
+      .then((response) => response.text())
+      .then((text) => {
+        setBlog({ blog: text });
+      });
+  }, []);
+  return (
+    <div className="blog-content">
+      <ReactMarkdown source={blog.blog} />
+    </div>
+  );
 }
 
 export default BlogTwo;
