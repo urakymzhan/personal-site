@@ -1,11 +1,6 @@
 import Projects from '../static/Projects.jsx';
-import Content from './Content.jsx';
+import Router from './Router.jsx';
 import Sidebar from './Sidebar.jsx';
-import Blogs from './Blogs.jsx';
+import BlogsNavigationPage from './BlogsNavigationPage.jsx';
 
-export {
-    Projects,
-    Content,
-    Sidebar,
-    Blogs
-}
+export { Projects, Router, Sidebar, BlogsNavigationPage };

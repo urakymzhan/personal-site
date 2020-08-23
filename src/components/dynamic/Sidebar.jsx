@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import profile from '../../assets/profile.jpeg';
+import { SideNav, Profile, ProfileImage, SideNavBlogTitles } from './styled';
 
 const Sidebar = () => {
   return (
-    <div className="sidenav">
-      <div className="profile">
+    <SideNav>
+      <Profile>
         <Link to="/">
-          <img src={profile} alt="profile" className="profile-img" />
+          <ProfileImage src={profile} alt="profile picture" />
         </Link>
         <p>
-          Ulan Rakymzhanov <br /> <span id="pblog-txt">Personal Blog</span>
+          Ulan Rakymzhanov <br /> <span>Personal Blog</span>
         </p>
-      </div>
-      <ul className="blog-titles">
+      </Profile>
+      <SideNavBlogTitles>
         <Link to="/blogs">
           <li>
             <span role="img" aria-label="handwrite emoji">
@@ -38,8 +39,8 @@ const Sidebar = () => {
             Teaching Videos
           </li>
         </Link>
-      </ul>
-    </div>
+      </SideNavBlogTitles>
+    </SideNav>
   );
 };
 

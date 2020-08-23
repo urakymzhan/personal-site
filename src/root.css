@@ -1,0 +1,25 @@
+/* globals */
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --font: monaco, Consolas, 'Lucida Console', monospace;
+  --sibebarBgColor: #333;
+  --mainFont: 12px;
+  --sidebarColor: #dadada;
+  --white: #fff;
+  --darkred: darkred;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+body {
+  background: var(--white);
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+}

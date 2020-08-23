@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import blogone from './content/blogone.md';
 import ReactMarkdown from 'react-markdown';
-import './style/blogs.css';
+import BlogWrapper from './styled';
 
 function BlogOne() {
   const [blog, setBlog] = useState('');
@@ -12,11 +12,12 @@ function BlogOne() {
       .then((text) => {
         setBlog({ blog: text });
       });
-  }, []);
+  }, [blogone]);
+
   return (
-    <div className="blog-content">
+    <BlogWrapper>
       <ReactMarkdown source={blog.blog} />
-    </div>
+    </BlogWrapper>
   );
 }
 export default BlogOne;

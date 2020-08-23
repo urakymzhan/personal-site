@@ -1,12 +1,15 @@
-import React from "react";
-import "../../styles/projects.css";
-import forward from "../../assets/arrowRight.png";
+import React from 'react';
+import forward from '../../assets/arrowRight.png';
+import { ProjectsWrapper } from './styled';
 
 function Projects() {
   return (
-    <div className="projects">
-        <p id="stack"><span>High Level Stack:</span> MERN, JavaScript, NextJS, GatsbyJS and many more.</p>
-        <p id="git-link"> all projects have source code on github </p>
+    <ProjectsWrapper>
+      <p id="stack">
+        <span>High Level Stack:</span> MERN, JavaScript, NextJS, GatsbyJS and
+        many more.
+      </p>
+      <p id="git-link"> all projects have source code on github </p>
       <br />
       <h4>Client Projects</h4>
       <hr />
@@ -37,7 +40,7 @@ function Projects() {
       <hr />
       <br />
       <div className="row">
-      <div className="project-card">
+        <div className="project-card">
           <a
             href="https://nba-pelicans.herokuapp.com/"
             target="_blank"
@@ -60,7 +63,7 @@ function Projects() {
         </div>
       </div>
       <div className="row">
-      <div className="project-card">
+        <div className="project-card">
           <a
             href="https://hajime-player.herokuapp.com/"
             target="_blank"
@@ -70,7 +73,7 @@ function Projects() {
           </a>
           <p>Dedicated to one of my favorite artist</p>
         </div>
-      <div className="project-card">
+        <div className="project-card">
           <a
             href="https://upbeat-morse-c54379.netlify.com/"
             target="_blank"
@@ -103,7 +106,7 @@ function Projects() {
           <p>Small Hangman Exercise</p>
         </div>
       </div>
-    </div>
+    </ProjectsWrapper>
   );
 }
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { blogs } from '../blogs/headline';
-import './style/blogs.css';
+import { BlogHeaders, BlogTitles } from './styled';
 
 export default function Blogs() {
   return (
-    <div className="blogs-wrapper">
+    <BlogHeaders>
       <h3>All blogs</h3>
-      <div className="blog-titles-content">
+      <BlogTitles>
         {blogs.map((blog) => {
           return (
             <Link
@@ -22,7 +22,7 @@ export default function Blogs() {
             </Link>
           );
         })}
-      </div>
-    </div>
+      </BlogTitles>
+    </BlogHeaders>
   );
 }

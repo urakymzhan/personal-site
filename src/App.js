@@ -1,21 +1,18 @@
-import React, { Component } from "react";
-import "./styles/App.css"
-import { Sidebar, Content } from './components/dynamic';
+import React, { Component } from 'react';
+import './root.css';
+import { Sidebar, Router } from './components/dynamic';
 import { Footer } from './components/static';
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Sidebar/>
-        <Content />
-        <Footer/>
+        <Sidebar />
+        <Router />
+        <Footer />
       </BrowserRouter>
     );
   }
 }
 export default App;
-
-

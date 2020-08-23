@@ -1,20 +1,20 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Home, Projects, Videos, NoMatch } from '../static';
-import { Blogs } from '../dynamic';
+import { BlogsNavigationPage } from '.';
 import { blogs } from '../blogs/headline';
-import '../../styles/App.css';
+import { MainRouter } from './styled';
 
-const Content = () => {
+const Router = () => {
   return (
-    <div className="contents">
+    <MainRouter>
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
 
         <Route exact path="/blogs">
-          <Blogs />
+          <BlogsNavigationPage />
         </Route>
         {blogs.map((blog) => {
           const Blog = blog.comp;
@@ -36,8 +36,8 @@ const Content = () => {
           <NoMatch />
         </Route>
       </Switch>
-    </div>
+    </MainRouter>
   );
 };
 
-export default Content;
+export default Router;
