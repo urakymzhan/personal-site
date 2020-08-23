@@ -10,9 +10,47 @@ const Videos = () => {
           <img src={poster} alt="poster" id="poster-image" />
         </div>
       </div>
+      <h4>!Only showing examples. Many videos are hidden from public.</h4>
       {/* <section>
         <h3>TOPIC: HTML</h3>
       </section> */}
+      <section>
+        <h1>Computer Science Fundamentals</h1>
+        {/* <h5>Intro To Programming</h5>
+        <iframe
+          className="front-end-video"
+          title="teaching video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/vt0ggsg2vaU"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <h5>Complete Terminal Tutorial</h5>
+        <iframe
+          className="front-end-video"
+          title="teaching video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/syDujrnZZ5Q"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe> */}
+        <h5>Complete Github Tutorial</h5>
+        <iframe
+          className="front-end-video"
+          title="teaching video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/tWDInMNFSsI"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </section>
+      s
       <section>
         <h1>CSS</h1>
         <h5>CSS: Flexbox part1</h5>
@@ -26,7 +64,7 @@ const Videos = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <h5>CSS: Flexbox part2</h5>
+        {/* <h5>CSS: Flexbox part2</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -36,7 +74,7 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
       </section>
       <section>
         <h1>JavaScript</h1>
@@ -51,7 +89,7 @@ const Videos = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <h5>JavaScript: Loops-Array-Objects</h5>
+        {/* <h5>JavaScript: Loops-Array-Objects</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -61,8 +99,8 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
-        <h5>JavaScript: Concepts part1</h5>
+        ></iframe> */}
+        {/* <h5>JavaScript: Concepts part1</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -83,8 +121,8 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
-        <h5>JavaScript: Methods part1</h5>
+        ></iframe> */}
+        {/* <h5>JavaScript: Methods part1</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -105,7 +143,7 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
         <h5>JavaScript: ES6 Concepts</h5>
         <iframe
           className="front-end-video"
@@ -117,7 +155,7 @@ const Videos = () => {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <h5>JavaScript: ES6 Pracitce</h5>
+        {/* <h5>JavaScript: ES6 Pracitce</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -150,11 +188,11 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
       </section>
       <section>
         <h1>ReactJS</h1>
-        <h5>ReactJS: Conditional Rendering part1</h5>
+        {/* <h5>ReactJS: Conditional Rendering part1</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -175,7 +213,7 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
 
         <h5>ReactJS: Lifecycles</h5>
         <iframe
@@ -189,7 +227,7 @@ const Videos = () => {
           allowFullScreen
         ></iframe>
 
-        <h5>ReactJS: Movie depot Practice</h5>
+        {/* <h5>ReactJS: Movie depot Practice</h5>
         <iframe
           className="front-end-video"
           title="teaching video"
@@ -234,43 +272,7 @@ const Videos = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
-      </section>
-      <section>
-        <h1>Computer Science Fundamentals</h1>
-        <h5>Intro To Programming</h5>
-        <iframe
-          className="front-end-video"
-          title="teaching video"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/vt0ggsg2vaU"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <h5>Complete Terminal Tutorial</h5>
-        <iframe
-          className="front-end-video"
-          title="teaching video"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/syDujrnZZ5Q"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <h5>Complete Github Tutorial</h5>
-        <iframe
-          className="front-end-video"
-          title="teaching video"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/tWDInMNFSsI"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        ></iframe> */}
       </section>
     </VideosWrapper>
   );

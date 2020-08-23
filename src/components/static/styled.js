@@ -115,6 +115,7 @@ export const VideosWrapper = styled.div`
   color: #fff;
   background: linear-gradient(to right, #303030, #007685);
   padding: 10px;
+  text-align: center;
   h1 {
     text-shadow: 1px 2px 8px rgb(194, 53, 65);
   }
@@ -130,7 +131,7 @@ export const VideosWrapper = styled.div`
     height: 300px;
   }
   .image-container {
-    width: 50%;
+    width: 55%;
     height: 300px;
     margin: 0 auto;
   }
@@ -140,5 +141,24 @@ export const VideosWrapper = styled.div`
   }
   h3 {
     margin: 0;
+  }
+  h4 {
+    margin-top: 8px;
+    color: #f43688;
+  }
+  @media (max-width: 700px) {
+    padding-bottom: 40px;
+    .front-end-video {
+      width: 100%;
+      height: 200px;
+    }
+    .image-container {
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+    }
+    h4 {
+      font-size: 10px;
+    }
   }
 `;
