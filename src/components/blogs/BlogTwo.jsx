@@ -12,7 +12,7 @@ function BlogTwo() {
       .then((text) => {
         setBlog({ blog: text });
       });
-  }, [blogtwo]);
+  }, [blog]);
 
   return (
     <BlogWrapper>
