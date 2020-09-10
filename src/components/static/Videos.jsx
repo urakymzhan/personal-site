@@ -50,7 +50,7 @@ const Videos = () => {
           allowFullScreen
         ></iframe>
       </section>
-      s
+
       <section>
         <h1>CSS</h1>
         <h5>CSS: Flexbox part1</h5>

@@ -39,6 +39,14 @@ const Sidebar = () => {
             Teaching Videos
           </li>
         </Link>
+        <Link to="/certificates">
+          <li>
+            <span role="img" aria-label="certificate emoji">
+              📜
+            </span>{' '}
+            Random Certificates
+          </li>
+        </Link>
       </SideNavBlogTitles>
     </SideNav>
   );

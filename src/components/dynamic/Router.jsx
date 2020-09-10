@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home, Projects, Videos, NoMatch } from '../static';
+import { Home, Projects, Videos, NoMatch, Certificates } from '../static';
 import { BlogsNavigationPage } from '.';
 import { blogs } from '../blogs/headline';
 import { MainRouter } from './styled';
@@ -31,6 +31,9 @@ const Router = () => {
         </Route>
         <Route path="/videos">
           <Videos />
+        </Route>
+        <Route path="/certificates">
+          <Certificates />
         </Route>
         <Route path="*">
           <NoMatch />
