@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const BlogWrapper = styled.div`
-  padding: 10px;
+  text-align: left;
   h2 {
     color: rgb(105, 102, 102);
   }

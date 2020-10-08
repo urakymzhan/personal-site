@@ -44,7 +44,7 @@ const Sidebar = () => {
             <span role="img" aria-label="certificate emoji">
               📜
             </span>{' '}
-            Random Certificates
+            Qualifications
           </li>
         </Link>
       </SideNavBlogTitles>

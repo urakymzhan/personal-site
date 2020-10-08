@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import blogtwo from './content/blogtwo.md';
 import ReactMarkdown from 'react-markdown';
 import BlogWrapper from './styled';
+import LayoutWrapper from '../utils/Layout';
+import Navigator from '../utils/Navigator';
 
 function BlogTwo() {
   const [blog, setBlog] = useState('');
@@ -15,9 +17,13 @@ function BlogTwo() {
   }, [blog]);
 
   return (
-    <BlogWrapper>
-      <ReactMarkdown source={blog.blog} />
-    </BlogWrapper>
+    <LayoutWrapper>
+      <Navigator>
+        <BlogWrapper>
+          <ReactMarkdown source={blog.blog} />
+        </BlogWrapper>
+      </Navigator>
+    </LayoutWrapper>
   );
 }
 

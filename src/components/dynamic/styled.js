@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const BlogHeaders = styled.div`
   text-align: center;
   overflow: hidden;
-  padding: 10px;
   }
 `;
 export const BlogTitles = styled.div`

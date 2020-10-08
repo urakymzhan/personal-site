@@ -3,7 +3,6 @@ import styled from 'styled-components';
 // Home
 export const HomeWrapper = styled.div`
   text-align: center;
-  padding-top: 5px;
 
   .flag {
     width: 80px;
