@@ -1,18 +1,5 @@
 import styled from 'styled-components';
 
-// BlogsNavigatorPage
-export const BlogHeaders = styled.div`
-  text-align: center;
-  overflow: hidden;
-  }
-`;
-export const BlogTitles = styled.div`
-  text-align: left;
-  a {
-    color: var(--darkred);
-  }
-`;
-
 // Sidebar
 export const SideNav = styled.div`
   top: 0;
@@ -81,12 +68,4 @@ export const SideNavBlogTitles = styled.ul`
       font-size: 10px;
     }
   }
-`;
-
-// Router
-export const MainRouter = styled.div`
-  margin-left: 20%;
-  font-size: var(--mainFont);
-  overflow: auto;
-  min-height: 100vh;
 `;

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import profile from '../../assets/profile.jpeg';
 import { SideNav, Profile, ProfileImage, SideNavBlogTitles } from './styled';
 
+const bookshelf_url="https://www.goodreads.com/review/list/120002670-ulan-rakymzhanov?ref=nav_mybooks&shelf=read";
+
 const Sidebar = () => {
   return (
     <SideNav>
@@ -47,6 +49,14 @@ const Sidebar = () => {
             Qualifications
           </li>
         </Link>
+        <a href={bookshelf_url} target="_blank" rel="noreferrer">
+        <li>
+            <span role="img" aria-label="bookshelf emoji">
+              📚
+            </span>{' '}
+            Bookshelf
+          </li>
+        </a>
       </SideNavBlogTitles>
     </SideNav>
   );

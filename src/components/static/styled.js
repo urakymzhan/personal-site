@@ -41,22 +41,20 @@ export const ProjectsWrapper = styled.div`
     color: gray;
   }
   .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 20px;
   }
   .project-card {
     background-image: linear-gradient(to right, #998d23, #23998d);
     border-radius: 5px;
-    flex: 0.45;
-    padding: 8px;
+    padding: 5px;
     transition: 1.5s;
     cursor: pointer;
+    margin-bottom: 8px;
   }
   .project-card img {
     width: 20px;
     height: 20px;
+    margin-left: 5px;
   }
   .project-card a {
     font-size: 18px;
@@ -64,6 +62,7 @@ export const ProjectsWrapper = styled.div`
   }
   .project-card p {
     color: #333;
+    font-size: 12px;
   }
   .project-card:hover {
     background: #333;
@@ -117,10 +116,12 @@ export const VideosWrapper = styled.div`
   text-align: center;
   h1 {
     text-shadow: 1px 2px 8px rgb(194, 53, 65);
+    margin-top: 60px;
+    text-transform: uppercase;
   }
   h5 {
-    color: black;
-    text-shadow: 1px 2px 8px rgb(255, 255, 255);
+    color: #d0e7b6;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
   }
   section {
     text-align: center;

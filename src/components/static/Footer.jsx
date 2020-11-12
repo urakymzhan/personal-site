@@ -10,7 +10,7 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <img
-          src={require('../../assets/linkedIn.svg')}
+          src={require('../../assets/linkedIn.svg').default}
           className="footer-icon"
           alt="linkedin"
         />
@@ -21,7 +21,7 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <img
-          src={require('../../assets/twitter.svg')}
+          src={require('../../assets/twitter.svg').default}
           className="footer-icon"
           alt="twitter"
         />
@@ -32,7 +32,7 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <img
-          src={require('../../assets/facebook.svg')}
+          src={require('../../assets/facebook.svg').default}
           className="footer-icon"
           alt="facebook"
         />
@@ -43,7 +43,7 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <img
-          src={require('../../assets/instagram.svg')}
+          src={require('../../assets/instagram.svg').default}
           className="footer-icon"
           alt="instagram"
         />
