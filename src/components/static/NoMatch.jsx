@@ -1,18 +1,17 @@
-import React from 'react';
-import { useLocation } from 'react-router-dom';
-import LayoutWrapper from '../utils/Layout';
+import React from "react";
+import { useLocation } from "react-router-dom";
 
 export default function NoMatch() {
   let location = useLocation();
   return (
-    <LayoutWrapper>
+    <div>
       <h2>
         No Such Page Found for <code>{location.pathname}</code>
       </h2>
       <h1>
-        {' '}
-        {'<'} 404 {'>'}{' '}
+        {" "}
+        {"<"} 404 {">"}{" "}
       </h1>
-    </LayoutWrapper>
+    </div>
   );
 }

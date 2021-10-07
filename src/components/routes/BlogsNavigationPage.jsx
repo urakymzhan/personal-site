@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { blogs } from '../blogs/headline';
-import LayoutWrapper from '../utils/Layout';
 import { BlogHeaders, BlogTitles } from './styled';
 
 export default function Blogs() {
   return (
-    <LayoutWrapper>
       <BlogHeaders>
         <h3>All blogs</h3>
         <BlogTitles>
@@ -26,6 +24,5 @@ export default function Blogs() {
           })}
         </BlogTitles>
       </BlogHeaders>
-    </LayoutWrapper>
   );
 }

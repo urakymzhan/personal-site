@@ -3,14 +3,20 @@ import styled from 'styled-components';
 // Home
 export const HomeWrapper = styled.div`
   text-align: center;
-
-  .flag {
-    width: 80px;
-    height: 80px;
+  margin-top: 50px;
+  h1 {
+    span {
+      color: var(--darkred)
+    }
   }
   .bornplaceAndSocialMedia {
+    margin-top: 30px;
     color: gray;
     font-size: 10px;
+  }
+  code {
+    color: #fff;
+    text-shadow: 0 0 5px #000;
   }
 `;
 
@@ -110,17 +116,17 @@ export const ProjectsWrapper = styled.div`
 
 // Videos
 export const VideosWrapper = styled.div`
-  color: #fff;
-  background: linear-gradient(to right, #303030, #007685);
+  // color: #fff;
+  // background: linear-gradient(to right, #303030, #007685);
   padding: 10px;
   text-align: center;
   h1 {
-    text-shadow: 1px 2px 8px rgb(194, 53, 65);
+    // text-shadow: 1px 2px 8px rgb(194, 53, 65);
     margin-top: 60px;
     text-transform: uppercase;
   }
   h5 {
-    color: #d0e7b6;
+    // color: #d0e7b6;
     text-shadow: 1px 1px 10px rgb(255, 255, 255);
   }
   section {

@@ -4,11 +4,16 @@
 }
 :root {
   --font: monaco, Consolas, 'Lucida Console', monospace;
-  --sibebarBgColor: #333;
+  /* --sibebarBgColor: #333; */
+  --sibebarBgColor: #000;
   --mainFont: 12px;
   --sidebarColor: #dadada;
   --white: #fff;
   --darkred: darkred;
+  --yellowgreen: yellowgreen;
+}
+* {
+  box-sizing: border-box;
 }
 ul {
   list-style: none;

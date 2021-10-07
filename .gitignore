@@ -23,6 +23,6 @@ yarn-error.log*
 yarn-lock
 
 # firebase
-.firebaserc
-.firebase
-firebase.json
+# .firebaserc
+# .firebase
+# firebase.json

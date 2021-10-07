@@ -2,6 +2,9 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 
+/**
+ * Used in Blogs Pages
+ */
 const Navigator = (props) => {
   let history = useHistory();
   return (
@@ -17,8 +20,8 @@ const Navigator = (props) => {
 export default Navigator;
 
 const Div = styled.div`
-  margin: 10px;
   text-align: left;
+  padding-top: 10px;
 `;
 
 const Button = styled.button`

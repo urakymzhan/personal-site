@@ -1,9 +1,8 @@
 import React, {Suspense} from 'react';
 import { Switch, Route } from 'react-router-dom';
-// import { Home, Projects, Videos, NoMatch, Certificates } from '../static';
-// import { BlogsNavigationPage } from '.';
 import { blogs } from '../blogs/headline';
-import { MainRouter } from './styled';
+// import { MainRouter } from './styled';
+import LayoutWrapper from '../utils/Layout';
 
 const Home  = React.lazy( () => import('../static/Home.jsx'));
 const Projects  = React.lazy( () => import('../static/Projects.jsx'));
@@ -13,8 +12,9 @@ const Certificates  = React.lazy( () => import('../static/Certificates.jsx'));
 const BlogsNavigationPage  = React.lazy( () => import('./BlogsNavigationPage.jsx'));
 
 const Router = () => {
+
   return (
-    <MainRouter>
+    <LayoutWrapper>
       <Suspense fallback={<div>Loading ...</div>}>
       <Switch>
         <Route exact path="/">
@@ -51,7 +51,7 @@ const Router = () => {
         </Route>
       </Switch>
       </Suspense>
-    </MainRouter>
+    </LayoutWrapper>
   );
 };
 

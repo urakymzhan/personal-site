@@ -4,68 +4,73 @@ import styled from 'styled-components';
 export const SideNav = styled.div`
   top: 0;
   left: 0;
-  bottom: 0;
-  width: 20%;
   background-color: var(--sibebarBgColor);
-  padding-top: 40px;
-  box-shadow: #333 1px 1px 10px;
+  padding-top: 60px;
   min-height: 100vh;
-  position: fixed;
-  overflow-x: hidden;
-  overflow-y: auto;
+  height: 100vh;
   font-size: var(--mainFont);
   color: var(--sidebarColor);
+  transition: transform 0.5s ease-in;
+  position: ${({ open }) => open ? 'fixed' : 'absolute'};
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  overflow: hidden;
+  width: 100%;
 `;
 
 export const Profile = styled.div`
   text-align: center;
   font-weight: bold;
-  line-height: 22px;
-  span {
-    color: #c1eef4;
-    font-size: 10px;
-  }
-  @media (max-width: 700px) {
+  overflow: hidden;
+  margin-bottom: 10px;
+  a {
+    color: inherit;
+    transition: color 0.4s linear;
+    &:hover {
+      color: var(--yellowgreen);
+    }
     p {
-      display: none;
+      font-size: 14px;
+    }
+    p:first-child {
+      margin-bottom: 0;
+    }
+    p:last-child {
+      margin-top: 5px;
+      margin-bottom: 0;
+      color: var(--yellowgreen);
+      transition: color 0.4s linear;
+      &:hover {
+        color: var(--white);
+      }
     }
   }
 `;
 export const ProfileImage = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
   border-radius: 50%;
+  margin-bottom: 10px;
   transition: 0.8s linear;
 
-  &hover {
-    transform: scale(1.1);
-  }
-  @media (max-width: 700px) {
-    width: 80%;
-    height: auto;
+  &:hover {
+    transform: scale(1.05);
   }
 `;
 export const SideNavBlogTitles = styled.ul`
-  padding: 0 10px 0 20px;
+  padding: 0;
+  text-align: center;
   a {
     color: inherit;
-    line-height: 16.8px;
-    &:hover {
-      color: var(--white);
-    }
+    line-height: 24px;
+    font-size: 24px;
   }
   li {
-    padding: 6px 0px;
-    color: yellowgreen;
-  }
-
-  @media (max-width: 700px) {
-    padding: 0 2px 0 4px;
-    li {
-      padding: 2px 0;
-    }
-    a {
-      font-size: 10px;
+    padding: 18px 0;
+    color: var(--yellowgreen);
+    transition: color 0.4s linear;
+    &:hover {
+      color: #fff;
     }
   }
 `;

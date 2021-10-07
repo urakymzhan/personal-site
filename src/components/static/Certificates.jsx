@@ -1,12 +1,10 @@
 import React from 'react';
-import LayoutWrapper from '../utils/Layout';
 import feedback from '../../assets/feedback.png';
 
 export default function Certificates() {
   return (
-    <LayoutWrapper>
-      <div>
-        <div style={{ marginBottom: '50px' }}>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ marginBottom: '50px'}}>
           <h2>Certificates: </h2>
           <p>
             <a
@@ -45,7 +43,7 @@ export default function Certificates() {
             </a>
           </p>
         </div>
-        <div>
+        <div >
           <h2>Personal feedback from students: </h2>
           <img
             src={feedback}
@@ -55,6 +53,5 @@ export default function Certificates() {
         </div>
         <p  style={{ color: "darkred" }}>This page still under construction!!!</p>
       </div>
-    </LayoutWrapper>
   );
 }

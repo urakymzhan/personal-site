@@ -6,12 +6,12 @@ import {teachingVideos} from './dataStore';
 const Videos = () => {
   return (
     <VideosWrapper>
-      <div>
+      {/* <div>
         <div className="image-container">
           <img src={poster} alt="poster" id="poster-image" />
         </div>
-      </div>
-      <h4>Many videos are hidden from public...</h4>
+      </div> */}
+      {/* <h4>Many videos are hidden from public...</h4> */}
       {
         teachingVideos && teachingVideos.map(video => {
           return (

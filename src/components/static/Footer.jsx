@@ -1,7 +1,7 @@
 import React from 'react';
 import { MainFooter } from './styled';
 
-const Footer = () => {
+const Footer = ({open}) => {
   return (
     <MainFooter>
       <a
