@@ -38,12 +38,12 @@ The rest will come and go.
 
 ### Lastly in quarantine:
 
-1. Understood how important to be in touch with your parents and relatives. I never thought about them this much before
-2. Understood how selfish i am at times. Learned to be nice to people around me. 
-3. I found projects that i love and built them. I never did much in my entire life
-4. Learnt working out at home is not enjoyable than at the gym.
-5. Learnt how multitasking was killing me. Now trying to focus each task at a time.
-6. Sometimes you don't have to run. Slowing pace is also one step forward.
-7. No matter what, people still going to judge you.
-8. There are people who try to take advantage of this pandemic situation.
-9. People don't listen but code listens.
+<!-- 1. Understood how important to be in touch with your parents and relatives. I never thought about them this much before -->
+1. Understood how selfish i am at times. Learned to be nice to people around me. 
+2. I found projects that i love and built them. I never did much in my entire life
+3. Learnt working out at home is not enjoyable than at the gym.
+4. Learnt how multitasking was killing me. Now trying to focus each task at a time.
+5. Sometimes you don't have to run. Slowing pace is also one step forward.
+6. No matter what, people still going to judge you.
+9. There are people who try to take advantage of this pandemic situation.
+10. People don't listen but code listens.
