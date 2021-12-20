@@ -1,7 +1,7 @@
 import React from 'react';
 import { MainFooter } from './styled';
 
-const Footer = ({open}) => {
+const Footer = ({ open }) => {
   return (
     <MainFooter>
       <a
@@ -26,22 +26,14 @@ const Footer = ({open}) => {
           alt="twitter"
         />
       </a>
-      <a
-        href="https://www.facebook.com/ulan13"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="#" rel="noopener noreferrer">
         <img
           src={require('../../assets/facebook.svg').default}
           className="footer-icon"
           alt="facebook"
         />
       </a>
-      <a
-        href="https://www.instagram.com/u_rakymzhan/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="#" rel="noopener noreferrer">
         <img
           src={require('../../assets/instagram.svg').default}
           className="footer-icon"

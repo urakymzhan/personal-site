@@ -40,58 +40,81 @@ export const teachingVideos = [
   },
 ];
 
-export const clientProjects = [
+export const projects = [
   {
-    title: 'Bootcamp Avenue',
-    definition: 'Bootcamp reviews and informations',
-    projectUrl: 'https://bootcampavenue.com/',
+    title: 'Side Projects',
+    content: [
+      {
+        title: 'Bootcamp Avenue',
+        definition: 'Bootcamp reviews and informations',
+        projectUrl: 'https://bootcampavenue.com/',
+      },
+      {
+        title: 'Spotify Web Player',
+        definition: 'Spotify Player Clone with NextJS',
+        projectUrl: 'https://spotify-web-player-beryl.vercel.app/',
+      },
+      {
+        title: 'House Market Place',
+        definition: 'Mobile First Marketplace with Firebase',
+        projectUrl:
+          'https://house-marketplace-mbd0fkxxv-urakymzhan.vercel.app/',
+      },
+    ],
   },
   {
-    title: 'EAlaws',
-    definition: 'Law company website',
-    projectUrl: 'https://ealaws.com/',
+    title: 'Client Projects',
+    content: [
+      {
+        title: 'SilkroadBites',
+        definition: 'Central Asian Cuisine in Bay Area',
+        projectUrl: 'https://silkroadbites.com/',
+      },
+      {
+        title: 'EAlaws',
+        definition: 'Law company website',
+        projectUrl: 'https://ealaws.com/',
+      },
+      {
+        title: 'Noname Shawarma',
+        definition: 'Food truck company based in Glendale, CA',
+        projectUrl: 'https://urakymzhan.github.io/nonameshawarma/',
+      },
+    ],
   },
   {
-    title: 'SilkroadBites',
-    definition: 'Central Asian Cuisine in Bay Area',
-    projectUrl: 'https://silkroadbites.com/',
-  },
-  {
-    title: 'Noname Shawarma',
-    definition: 'Food truck company based in Glendale, CA',
-    projectUrl: 'https://urakymzhan.github.io/nonameshawarma/',
-  },
-];
-
-export const otherProjects = [
-  {
-    title: 'NBA Scores and News',
-    definition: 'Get updates of latest NBA news and scores',
-    projectUrl: 'https://nba-pelicans.herokuapp.com/',
-  },
-  {
-    title: 'RgbHex',
-    definition: 'CSS Color Picker',
-    projectUrl: 'https://urakymzhan.github.io/rgbaHex/',
-  },
-  {
-    title: 'Hajime',
-    definition: 'Dedicated to one of my favorite artist',
-    projectUrl: 'https://hajime-player.herokuapp.com/',
-  },
-  {
-    title: 'InstaChat',
-    definition: 'Create rooms and chat with your friends',
-    projectUrl: 'https://upbeat-morse-c54379.netlify.com/',
-  },
-  {
-    title: 'PokeGame',
-    definition: 'Small Pokemon Game',
-    projectUrl: 'https://urakymzhan.github.io/pokedex/',
-  },
-  {
-    title: 'HangMan',
-    definition: 'Small Hangman Exercise',
-    projectUrl: 'https://urakymzhan.github.io/hangman/',
+    title: 'Other Projects',
+    content: [
+      {
+        title: 'NBA Scores and News',
+        definition: 'Get updates of latest NBA news and scores',
+        projectUrl: 'https://nba-pelicans.herokuapp.com/',
+      },
+      {
+        title: 'RgbHex',
+        definition: 'CSS Color Picker',
+        projectUrl: 'https://urakymzhan.github.io/rgbaHex/',
+      },
+      {
+        title: 'Hajime',
+        definition: 'Dedicated to one of my favorite artist',
+        projectUrl: 'https://hajime-player.herokuapp.com/',
+      },
+      {
+        title: 'InstaChat',
+        definition: 'Create rooms and chat with your friends',
+        projectUrl: 'https://upbeat-morse-c54379.netlify.com/',
+      },
+      {
+        title: 'PokeGame',
+        definition: 'Small Pokemon Game',
+        projectUrl: 'https://urakymzhan.github.io/pokedex/',
+      },
+      {
+        title: 'HangMan',
+        definition: 'Small Hangman Exercise',
+        projectUrl: 'https://urakymzhan.github.io/hangman/',
+      },
+    ],
   },
 ];

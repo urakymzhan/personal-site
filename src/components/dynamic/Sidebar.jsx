@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import profile from "../../assets/profile.jpeg";
-import { SideNav, Profile, ProfileImage, SideNavBlogTitles } from "./styled";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import profile from '../../assets/profile.jpeg';
+import { SideNav, Profile, ProfileImage, SideNavBlogTitles } from './styled';
 
 const bookshelf_url =
-  "https://www.goodreads.com/review/list/120002670-ulan-rakymzhanov?ref=nav_mybooks&shelf=read";
+  'https://www.goodreads.com/review/list/120002670-ulan-rakymzhanov?ref=nav_mybooks&shelf=read';
 
 const Sidebar = ({ open, setOpen }) => {
   return (
@@ -19,27 +19,27 @@ const Sidebar = ({ open, setOpen }) => {
         </Link>
       </Profile>
       <SideNavBlogTitles>
-        <Link to="/blogs" onClick={() => setOpen(!open)}>
-          <li>
-            <span role="img" aria-label="handwrite emoji">
-              ✍🏻
-            </span>{" "}
-            Blogs{" "}
-          </li>
-        </Link>
         <Link to="/projects" onClick={() => setOpen(!open)}>
           <li>
             <span role="img" aria-label="tools emoji">
               🛠️
-            </span>{" "}
+            </span>{' '}
             Projects
+          </li>
+        </Link>
+        <Link to="/blogs" onClick={() => setOpen(!open)}>
+          <li>
+            <span role="img" aria-label="handwrite emoji">
+              ✍🏻
+            </span>{' '}
+            Blogs{' '}
           </li>
         </Link>
         <Link to="/videos" onClick={() => setOpen(!open)}>
           <li>
             <span role="img" aria-label="televison emoji">
               📺
-            </span>{" "}
+            </span>{' '}
             Teaching Videos
           </li>
         </Link>
@@ -47,7 +47,7 @@ const Sidebar = ({ open, setOpen }) => {
           <li>
             <span role="img" aria-label="certificate emoji">
               📜
-            </span>{" "}
+            </span>{' '}
             Qualifications
           </li>
         </Link>
@@ -55,7 +55,7 @@ const Sidebar = ({ open, setOpen }) => {
           <li>
             <span role="img" aria-label="bookshelf emoji">
               📚
-            </span>{" "}
+            </span>{' '}
             Bookshelf
           </li>
         </a>
