@@ -50,6 +50,11 @@ export const projects = [
         projectUrl: 'https://bootcampavenue.com/',
       },
       {
+        title: 'Fixinity',
+        definition: 'Diagnose your car for FREE',
+        projectUrl: 'http://www.fixinity.com/',
+      },
+      {
         title: 'Spotify Web Player',
         definition: 'Spotify Player Clone with NextJS',
         projectUrl: 'https://spotify-web-player-beryl.vercel.app/',
