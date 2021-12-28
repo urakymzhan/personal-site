@@ -7,8 +7,8 @@ function Projects() {
   return (
     <ProjectsWrapper>
       <p id="stack">
-        <span>High Level Stack:</span> JavaScript, ReactJS, NextJS, GatsbyJS,
-        HTML, CSS and backend integrations.
+        <span>High Level Stack:</span> JavaScript, ReactJS, React
+        Native(Mobile), NextJS, GatsbyJS, HTML, CSS and backend integrations.
       </p>
       <p id="git-link"> All projects have source code on github </p>
       <br />
