@@ -1,40 +1,40 @@
 export const teachingVideos = [
   {
-    concept: 'Computer Science Fundamentals',
+    concept: "Computer Science Fundamentals",
     videos: [
       {
-        title: 'Intro To Programming',
-        source: 'https://www.youtube.com/embed/vt0ggsg2vaU',
+        title: "Intro To Programming",
+        source: "https://www.youtube.com/embed/vt0ggsg2vaU",
       },
       {
-        title: 'Complete Github Tutorial',
-        source: 'https://www.youtube.com/embed/tWDInMNFSsI',
+        title: "Complete Github Tutorial",
+        source: "https://www.youtube.com/embed/tWDInMNFSsI",
       },
     ],
   },
   {
-    concept: 'JavaScript',
+    concept: "JavaScript",
     videos: [
       {
-        title: 'JavaScript: Functions and Control Flow',
-        source: 'https://www.youtube.com/embed/Z55KCsvCN8c',
+        title: "JavaScript: Functions and Control Flow",
+        source: "https://www.youtube.com/embed/Z55KCsvCN8c",
       },
       {
-        title: 'JavaScript: ES6 Concepts',
-        source: 'https://www.youtube.com/embed/H8shFQ7Wl4s',
+        title: "JavaScript: ES6 Concepts",
+        source: "https://www.youtube.com/embed/H8shFQ7Wl4s",
       },
     ],
   },
   {
-    concept: 'ReactJS',
+    concept: "ReactJS",
     videos: [
       {
-        title: 'ReactJS: Lifecycles',
-        source: 'https://www.youtube.com/embed/59Z0eoEB9NI8c',
+        title: "ReactJS: Lifecycles",
+        source: "https://www.youtube.com/embed/59Z0eoEB9NI8c",
       },
       {
-        title: 'Conditional Rendering part1',
-        source: 'https://www.youtube.com/embed/ozQXL-NV_mM',
+        title: "Conditional Rendering part1",
+        source: "https://www.youtube.com/embed/ozQXL-NV_mM",
       },
     ],
   },
@@ -42,83 +42,88 @@ export const teachingVideos = [
 
 export const projects = [
   {
-    title: 'Side Projects',
+    title: "Side Projects",
     content: [
       {
-        title: 'Bootcamp Avenue',
-        definition: 'Bootcamp reviews and informations',
-        projectUrl: 'https://bootcampavenue.com/',
+        title: "Bootcamp Avenue",
+        definition: "Bootcamp reviews and informations",
+        projectUrl: "https://bootcampavenue.com/",
       },
       {
-        title: 'Fixinity',
-        definition: 'Diagnose your car for FREE',
-        projectUrl: 'http://www.fixinity.com/',
+        title: "Fixinity",
+        definition: "Diagnose your car for FREE",
+        projectUrl: "http://www.fixinity.com/",
       },
       {
-        title: 'Spotify Web Player',
-        definition: 'Spotify Player Clone with NextJS',
-        projectUrl: 'https://spotify-web-player-beryl.vercel.app/',
+        title: "Spotify Web Player",
+        definition: "Spotify Player Clone with NextJS",
+        projectUrl: "https://spotify-web-player-beryl.vercel.app/",
       },
       {
-        title: 'House Market Place',
-        definition: 'Mobile First Marketplace with Firebase',
+        title: "House Market Place",
+        definition: "Mobile First Marketplace with Firebase",
         projectUrl:
-          'https://house-marketplace-mbd0fkxxv-urakymzhan.vercel.app/',
+          "https://house-marketplace-mbd0fkxxv-urakymzhan.vercel.app/",
+      },
+      {
+        title: "Uber 2.0",
+        definition: "Famous Uber mobile app clone using React Native",
+        projectUrl: "https://github.com/urakymzhan/uber",
       },
     ],
   },
   {
-    title: 'Client Projects',
+    title: "Client Projects",
     content: [
       {
-        title: 'SilkroadBites',
-        definition: 'Central Asian Cuisine in Bay Area',
-        projectUrl: 'https://silkroadbites.com/',
+        title: "SilkroadBites",
+        definition: "Central Asian Cuisine in Bay Area",
+        projectUrl: "https://silkroadbites.com/",
       },
       {
-        title: 'EAlaws',
-        definition: 'Law company website',
-        projectUrl: 'https://ealaws.com/',
+        title: "EAlaws",
+        definition: "Law company website",
+        projectUrl: "https://ealaws.com/",
       },
       {
-        title: 'Noname Shawarma',
-        definition: 'Food truck company based in Glendale, CA',
-        projectUrl: 'https://urakymzhan.github.io/nonameshawarma/',
+        title: "Noname Shawarma",
+        definition: "Food truck company based in Glendale, CA",
+        projectUrl: "https://urakymzhan.github.io/nonameshawarma/",
       },
     ],
   },
   {
-    title: 'Other Projects',
+    title: "Other Projects",
     content: [
       {
-        title: 'NBA Scores and News',
-        definition: 'Get updates of latest NBA news and scores',
-        projectUrl: 'https://nba-pelicans.herokuapp.com/',
+        title: "NBA Scores and News",
+        definition: "Get updates of latest NBA news and scores",
+        projectUrl: "https://nba-pelicans.herokuapp.com/",
       },
       {
-        title: 'RgbHex',
-        definition: 'CSS Color Picker',
-        projectUrl: 'https://urakymzhan.github.io/rgbaHex/',
+        title: "RgbHex",
+        definition: "CSS Color Picker",
+        projectUrl: "https://urakymzhan.github.io/rgbaHex/",
       },
       {
-        title: 'Hajime',
-        definition: 'Dedicated to one of my favorite artist',
-        projectUrl: 'https://hajime-player.herokuapp.com/',
+        title: "Hajime",
+        definition: "Dedicated to one of my favorite artist",
+        projectUrl: "https://hajime-player.herokuapp.com/",
       },
       {
-        title: 'InstaChat',
-        definition: 'Create rooms and chat with your friends',
-        projectUrl: 'https://upbeat-morse-c54379.netlify.com/',
+        title: "InstaChat",
+        definition: "Create rooms and chat with your friends",
+        projectUrl: "https://upbeat-morse-c54379.netlify.com/",
       },
       {
-        title: 'PokeGame',
-        definition: 'Small Pokemon Game',
-        projectUrl: 'https://urakymzhan.github.io/pokedex/',
+        title: "PokeGame",
+        definition: "Small Pokemon Game",
+        projectUrl: "https://urakymzhan.github.io/pokedex/",
       },
       {
-        title: 'HangMan',
-        definition: 'Small Hangman Exercise',
-        projectUrl: 'https://urakymzhan.github.io/hangman/',
+        title: "HangMan",
+        definition: "Small Hangman Exercise",
+        projectUrl: "https://urakymzhan.github.io/hangman/",
       },
     ],
   },
