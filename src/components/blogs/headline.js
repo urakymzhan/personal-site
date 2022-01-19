@@ -10,4 +10,9 @@ export const blogs = [
     link: "just-thoughts-in-quarantine",
     title: "Just thoughts in Quarantine",
   },
+  {
+    id: 3,
+    link: "styled-components-example",
+    title: "Styled Components Example",
+  },
 ];

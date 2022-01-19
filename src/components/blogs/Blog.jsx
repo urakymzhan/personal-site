@@ -4,6 +4,11 @@ import ReactMarkdown from "react-markdown";
 import BlogWrapper from "./styled";
 import Navigator from "../utils/Navigator";
 
+// TODO: add highlighter
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
+
 function Blog() {
   const [blog, setBlog] = useState("");
   // Show only specific blog
@@ -23,6 +28,22 @@ function Blog() {
   return (
     <Navigator>
       <BlogWrapper>
+        {/* <ReactMarkdown
+          children={blog}
+          components={{
+            code({ node, inline, children, ...props }) {
+              return (
+                <SyntaxHighlighter
+                  children={children}
+                  style={dark}
+                  language="javascript"
+                  // PreTag="div"
+                  {...props}
+                />
+              );
+            },
+          }}
+        /> */}
         <ReactMarkdown source={blog} />
       </BlogWrapper>
     </Navigator>
