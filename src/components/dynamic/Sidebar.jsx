@@ -15,10 +15,18 @@ const Sidebar = ({ open, setOpen }) => {
         </Link>
         <Link to="/" onClick={() => setOpen(!open)}>
           <p>Ulan Rakymzhanov</p>
-          <p>- HOME -</p>
+          <p>- home -</p>
         </Link>
       </Profile>
       <SideNavBlogTitles>
+      <Link to="/blogs" onClick={() => setOpen(!open)}>
+          <li>
+            <span role="img" aria-label="handwrite emoji">
+              ✍🏻
+            </span>{' '}
+            Blogs{' '}
+          </li>
+        </Link>
         <Link to="/projects" onClick={() => setOpen(!open)}>
           <li>
             <span role="img" aria-label="tools emoji">
@@ -43,14 +51,7 @@ const Sidebar = ({ open, setOpen }) => {
             Qualifications
           </li>
         </Link>
-        <Link to="/blogs" onClick={() => setOpen(!open)}>
-          <li>
-            <span role="img" aria-label="handwrite emoji">
-              ✍🏻
-            </span>{' '}
-            Blogs{' '}
-          </li>
-        </Link>
+
         <a href={bookshelf_url} target="_blank" rel="noreferrer">
           <li>
             <span role="img" aria-label="bookshelf emoji">

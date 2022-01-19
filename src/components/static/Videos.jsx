@@ -5,18 +5,19 @@ import { teachingVideos } from './dataStore';
 const Videos = () => {
   return (
     <VideosWrapper>
-      <h4>Old videos when i first started teaching people.</h4>
+      <h4>Some of my teachings [end of 2019] [new ones are private]</h4>
       {teachingVideos &&
-        teachingVideos.map((video, idx) => {
+        teachingVideos?.map((video, idx) => {
           return (
             <section key={idx}>
               <h1>{video.concept}</h1>
               {video.videos &&
                 video.videos.map((singleVideo, i) => {
                   return (
-                    <div key={i}>
+                    <div key={i} >
                       <h5>{singleVideo.title}</h5>
                       <iframe
+                        style={{border: '6px solid #2F4F4F'}}
                         className="front-end-video"
                         title="teaching video"
                         width="560"

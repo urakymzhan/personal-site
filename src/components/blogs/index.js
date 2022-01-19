@@ -1,7 +1,3 @@
-import BlogOne from './BlogOne.jsx';
-import BlogTwo from './BlogTwo.jsx';
+import Blog from "./Blog.jsx";
 
-export {
-    BlogOne,
-    BlogTwo
-}
+export { Blog };

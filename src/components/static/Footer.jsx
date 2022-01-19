@@ -7,7 +7,7 @@ const Footer = ({ open }) => {
       <a
         href="https://www.linkedin.com/in/ulan-rakymzhanov/"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noreferrer"
       >
         <img
           src={require('../../assets/linkedIn.svg').default}
