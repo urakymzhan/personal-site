@@ -1,5 +1,4 @@
 import React from "react";
-import "./root.css";
 import { Sidebar } from "./components/dynamic";
 import { Router } from "./components/routes";
 import { Footer } from "./components/static";
@@ -25,7 +24,7 @@ const App = () => {
 };
 export default App;
 
-function BurgerMenu({open, setOpen}) {
+function BurgerMenu({ open, setOpen }) {
   return (
     <div
       style={{
@@ -45,14 +44,14 @@ function BurgerMenu({open, setOpen}) {
           src={require("./assets/menu-close-64.png").default}
           className="menu-icon"
           alt="circle menu close"
-          style={{ height: "100%", width: "100%", background: '#fff'}}
+          style={{ height: "100%", width: "100%", background: "#fff" }}
         />
       ) : (
         <img
           src={require("./assets/menu-open-50.png").default}
           className="menu-icon"
           alt="circle menu open"
-          style={{ height: "100%", width: "100%"}}
+          style={{ height: "100%", width: "100%" }}
         />
       )}
     </div>

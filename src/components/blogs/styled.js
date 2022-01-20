@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const BlogWrapper = styled.div`
   text-align: left;
@@ -11,6 +11,15 @@ const BlogWrapper = styled.div`
   em {
     color: #118ab2;
   }
+  // pre {
+  //   background: black;
+  //   padding: 10px;
+  // }
+  // code {
+  //   color: lightgray;
+  //   background: black;
+  //   // padding: 5px;
+  // }
 `;
 
 export default BlogWrapper;

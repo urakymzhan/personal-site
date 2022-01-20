@@ -1,5 +1,11 @@
 ## Styled Components Example with ReactJS
 
+| Date             | Author |
+| :--------------- | -----: |
+| January 19, 2022 |   Ulan |
+
+<!-- - **Date:** January 19, 2022 -->
+
 Styled Components is one of the great ways to apply CSS into React apps. So we are going to do that in this blog.
 
 ##### Prerequisites:
@@ -103,7 +109,6 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const AppDiv = styled.div`
-  // border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -285,9 +290,3 @@ If you run your app final result should look like this:
 ![cards final](/images/st-final.png)
 
 As a final word. You can practice to shift **orders** of `Icon` and `Stats/Comment` using `left: true/false` boolean from our **data above**.
-
-- **Date:** January 19, 2022
-
-```
-
-```

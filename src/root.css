@@ -3,7 +3,7 @@
   display: none;
 }
 :root {
-  --font: monaco, Consolas, 'Lucida Console', monospace;
+  --font: monaco, Consolas, "Lucida Console", monospace;
   /* --sibebarBgColor: #333; */
   --sibebarBgColor: #000;
   --mainFont: 12px;
@@ -14,9 +14,6 @@
 }
 * {
   box-sizing: border-box;
-}
-ul {
-  list-style: none;
 }
 a {
   text-decoration: none;
