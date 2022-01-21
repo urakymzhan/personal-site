@@ -1,5 +1,5 @@
-import React from 'react';
-import { MainFooter } from './styled';
+import React from "react";
+import { MainFooter } from "./styled";
 
 const Footer = ({ open }) => {
   return (
@@ -10,7 +10,7 @@ const Footer = ({ open }) => {
         rel="noreferrer"
       >
         <img
-          src={require('../../assets/linkedIn.svg').default}
+          src={require("../../assets/linkedIn.svg").default}
           className="footer-icon"
           alt="linkedin"
         />
@@ -21,12 +21,12 @@ const Footer = ({ open }) => {
         rel="noopener noreferrer"
       >
         <img
-          src={require('../../assets/twitter.svg').default}
+          src={require("../../assets/twitter.svg").default}
           className="footer-icon"
           alt="twitter"
         />
       </a>
-      <a href="#" rel="noopener noreferrer">
+      {/* <a href="#" rel="noopener noreferrer">
         <img
           src={require('../../assets/facebook.svg').default}
           className="footer-icon"
@@ -39,7 +39,7 @@ const Footer = ({ open }) => {
           className="footer-icon"
           alt="instagram"
         />
-      </a>
+      </a> */}
     </MainFooter>
   );
 };

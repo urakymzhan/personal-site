@@ -1,11 +1,13 @@
-import React from 'react';
-import forward from '../../assets/arrowRight.png';
-import { ProjectsWrapper } from './styled';
-import { projects } from './dataStore';
+import React from "react";
+import forward from "../assets/arrowRight.png";
+import { ProjectsWrapper } from "./styled";
+import { projects } from "../components/utils/dataStore";
+import PageHeader from "../components/utils/Helmet";
 
 function Projects() {
   return (
     <ProjectsWrapper>
+      <PageHeader title="Projects" />
       <p id="stack">
         <span>High Level Stack:</span> JavaScript, ReactJS, React
         Native(Mobile), NextJS, GatsbyJS, HTML, CSS and backend integrations.

@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useRouteMatch } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
-import BlogWrapper from "./styled";
+import { BlogWrapper } from "./styled";
 import Navigator from "../utils/Navigator";
 import remarkGfm from "remark-gfm";
 
-// TODO: add highlighter
+// Code highlighter theme
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import {
-  dracula,
-  twilight,
-} from "react-syntax-highlighter/dist/esm/styles/prism";
+import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import PageHeader from "../utils/Helmet";
+import ShareButtons from "./ShareButtons";
 
 // Syntax Highlithing in markdown
 const CodeBlock = ({ language, value }) => {
@@ -28,7 +27,7 @@ function Blog() {
   let fileName = pathname.slice(7);
 
   useEffect(() => {
-    // TODO: this might throw error because of require.
+    // TODO: ReferenceError: process is not defined
     const blogname = require(`./content/${fileName}.md`).default;
     fetch(blogname)
       .then((response) => response.text())
@@ -37,15 +36,24 @@ function Blog() {
       });
   }, [fileName]);
 
+  // Set diff page title for each blog page
+  const pagetitle = fileName
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+
   return (
     <Navigator>
-      <BlogWrapper>
+      <PageHeader title={pagetitle} />
+      <BlogWrapper pagetitle={pagetitle}>
+        <ShareButtons />
         <ReactMarkdown
           escapeHtml={false}
           source={blog}
           renderers={{ code: CodeBlock }}
           remarkPlugins={[remarkGfm]}
         />
+        <ShareButtons />
       </BlogWrapper>
     </Navigator>
   );

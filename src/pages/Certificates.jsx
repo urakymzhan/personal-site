@@ -1,9 +1,11 @@
 import React from "react";
-import feedback from "../../assets/feedback.png";
+import feedback from "../assets/feedback.png";
+import PageHeader from "../components/utils/Helmet";
 
 export default function Certificates() {
   return (
     <div style={{ textAlign: "center" }}>
+      <PageHeader title="Certificates" />
       <div style={{ marginBottom: "50px" }}>
         <h2>Certificates: </h2>
         <p>

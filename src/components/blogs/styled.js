@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BlogWrapper = styled.div`
+export const BlogWrapper = styled.div`
   text-align: left;
   h2 {
     color: rgb(105, 102, 102);
@@ -11,15 +11,17 @@ const BlogWrapper = styled.div`
   em {
     color: #118ab2;
   }
-  // pre {
-  //   background: black;
-  //   padding: 10px;
-  // }
-  // code {
-  //   color: lightgray;
-  //   background: black;
-  //   // padding: 5px;
-  // }
+  img {
+    width: 100%;
+  }
 `;
 
-export default BlogWrapper;
+export const ShareButtonsContainer = styled.div`
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+`;

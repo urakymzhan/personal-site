@@ -8,6 +8,7 @@ Code for my [website](https://ulan13.me) 🌐
 - `firebase deploy` (make sure you have firebase.json)
 - `choose build as public directory`
 - `prevent from overwriting index.html`
+
 #### TODO
 
-- Manage blogs more dynamicly
+- Search `TODO` word in codebase

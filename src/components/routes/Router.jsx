@@ -4,11 +4,11 @@ import Blog from "../blogs/Blog";
 import { blogs } from "../blogs/headline";
 import LayoutWrapper from "../utils/Layout";
 
-const Home = React.lazy(() => import("../static/Home.jsx"));
-const Projects = React.lazy(() => import("../static/Projects.jsx"));
-const Videos = React.lazy(() => import("../static/Videos.jsx"));
-const NoMatch = React.lazy(() => import("../static/NoMatch.jsx"));
-const Certificates = React.lazy(() => import("../static/Certificates.jsx"));
+const Home = React.lazy(() => import("../../pages/Home.jsx"));
+const Projects = React.lazy(() => import("../../pages/Projects.jsx"));
+const Videos = React.lazy(() => import("../../pages/Videos.jsx"));
+const NoMatch = React.lazy(() => import("../../pages/NoMatch.jsx"));
+const Certificates = React.lazy(() => import("../../pages/Certificates.jsx"));
 const BlogsNavigationPage = React.lazy(() =>
   import("./BlogsNavigationPage.jsx")
 );

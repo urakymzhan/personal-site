@@ -16,11 +16,11 @@ export const teachingVideos = [
     concept: "JavaScript",
     videos: [
       {
-        title: "JavaScript: Functions and Control Flow",
+        title: "Functions and Control Flow",
         source: "https://www.youtube.com/embed/Z55KCsvCN8c",
       },
       {
-        title: "JavaScript: ES6 Concepts",
+        title: "ES6 Concepts",
         source: "https://www.youtube.com/embed/H8shFQ7Wl4s",
       },
     ],
@@ -29,7 +29,7 @@ export const teachingVideos = [
     concept: "ReactJS",
     videos: [
       {
-        title: "ReactJS: Lifecycles",
+        title: "Lifecycles",
         source: "https://www.youtube.com/embed/59Z0eoEB9NI8c",
       },
       {
