@@ -15,8 +15,7 @@ export const HomeWrapper = styled.div`
     font-size: 10px;
   }
   code {
-    color: #fff;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 20px var(--darkred);
   }
 `;
 

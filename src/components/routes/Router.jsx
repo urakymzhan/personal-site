@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Blog from "../blogs/Blog";
 import { blogs } from "../blogs/headline";
 import LayoutWrapper from "../utils/Layout";
@@ -17,36 +17,23 @@ const Router = () => {
   return (
     <LayoutWrapper>
       <Suspense fallback={<div>Loading ...</div>}>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-
-          <Route exact path="/blogs">
-            <BlogsNavigationPage />
-          </Route>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blogs" element={<BlogsNavigationPage />} />
           {blogs.map((blog) => {
             return (
               <Route
                 key={blog.id}
                 path={`/blogs/:${blog.link}`}
-                component={Blog}
+                element={<Blog />}
               />
             );
           })}
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/videos">
-            <Videos />
-          </Route>
-          <Route path="/certificates">
-            <Certificates />
-          </Route>
-          <Route path="*">
-            <NoMatch />
-          </Route>
-        </Switch>
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/videos" element={<Videos />} />
+          <Route path="/certificates" element={<Certificates />} />
+          <Route path="*" element={<NoMatch />} />
+        </Routes>
       </Suspense>
     </LayoutWrapper>
   );

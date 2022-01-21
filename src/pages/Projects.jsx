@@ -18,9 +18,9 @@ function Projects() {
       <div className="row">
         {projects?.map((project, idx) => {
           return (
-            <>
+            <div key={idx}>
               <br />
-              <h4 key={idx}>{project?.title}</h4>
+              <h4>{project?.title}</h4>
               <hr />
               <br />
               {project?.content.map((content, i) => (
@@ -36,7 +36,7 @@ function Projects() {
                   </a>
                 </div>
               ))}
-            </>
+            </div>
           );
         })}
       </div>

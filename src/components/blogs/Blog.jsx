@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { useLocation, useRouteMatch } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
-import { BlogWrapper } from "./styled";
-import Navigator from "../utils/Navigator";
+import { BlogWrapper, Button, Aligner } from "./styled";
+// import Navigator from "../utils/Navigator";
 import remarkGfm from "remark-gfm";
-
+import ShareButtons from "./ShareButtons";
+import PageHeader from "../utils/Helmet";
 // Code highlighter theme
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
-import PageHeader from "../utils/Helmet";
-import ShareButtons from "./ShareButtons";
 
 // Syntax Highlithing in markdown
 const CodeBlock = ({ language, value }) => {
@@ -22,12 +21,16 @@ const CodeBlock = ({ language, value }) => {
 
 function Blog() {
   const [blog, setBlog] = useState("");
+  let navigate = useNavigate();
+
   // Show only specific blog
   const { pathname } = useLocation();
   let fileName = pathname.slice(7);
 
   useEffect(() => {
-    // TODO: ReferenceError: process is not defined
+    /*
+     * TODO: ReferenceError: process is not defined
+     */
     const blogname = require(`./content/${fileName}.md`).default;
     fetch(blogname)
       .then((response) => response.text())
@@ -43,19 +46,22 @@ function Blog() {
     .join(" ");
 
   return (
-    <Navigator>
+    <BlogWrapper pagetitle={pagetitle}>
       <PageHeader title={pagetitle} />
-      <BlogWrapper pagetitle={pagetitle}>
+      <Aligner>
+        <Button type="button" onClick={() => navigate(-1)}>
+          go back
+        </Button>
         <ShareButtons />
-        <ReactMarkdown
-          escapeHtml={false}
-          source={blog}
-          renderers={{ code: CodeBlock }}
-          remarkPlugins={[remarkGfm]}
-        />
-        <ShareButtons />
-      </BlogWrapper>
-    </Navigator>
+      </Aligner>
+      <ReactMarkdown
+        escapeHtml={false}
+        source={blog}
+        renderers={{ code: CodeBlock }}
+        remarkPlugins={[remarkGfm]}
+      />
+      <ShareButtons />
+    </BlogWrapper>
   );
 }
 export default Blog;
