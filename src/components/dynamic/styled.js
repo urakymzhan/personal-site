@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 // Sidebar
 export const SideNav = styled.div`
@@ -10,9 +10,9 @@ export const SideNav = styled.div`
   height: 100vh;
   font-size: var(--mainFont);
   color: var(--sidebarColor);
-  transition: transform 0.5s ease-in;
-  position: ${({ open }) => open ? 'fixed' : 'absolute'};
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  transition: transform 0.3s ease-in;
+  position: ${({ open }) => (open ? "fixed" : "absolute")};
+  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   overflow: hidden;
   width: 100%;
 `;
