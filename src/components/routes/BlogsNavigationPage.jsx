@@ -18,7 +18,10 @@ export default function Blogs() {
                 pathname: `/blogs/${blog.link}`,
               }}
             >
-              <h3> ~ {blog.title}</h3>
+              <h3 className="blog-headline-header">
+                {blog.title}{" "}
+                <span className="blog-headline-tags">#{blog.tag}</span>
+              </h3>
             </Link>
           );
         })}

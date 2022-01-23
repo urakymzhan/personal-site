@@ -1,18 +1,24 @@
 import styled from "styled-components";
 
 export const BlogWrapper = styled.div`
+  font-family: "Roboto", sans-serif;
   text-align: left;
   color: var(--blogColor);
   padding-top: 20px;
   padding-bottom: 20px;
-  h2 {
+  h1,
+  h2,
+  h3,
+  h4 {
     color: var(--blogHeaderColor);
-  }
-  li:nth-child(even) {
-    color: #94095f;
   }
   em {
     color: #118ab2;
+    font-size: 0.8rem;
+  }
+  strong {
+    font-weight: 900;
+    color: #000;
   }
   img {
     width: 100%;

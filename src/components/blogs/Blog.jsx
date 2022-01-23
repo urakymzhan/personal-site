@@ -55,7 +55,7 @@ function Blog() {
         <ShareButtons />
       </Aligner>
       <ReactMarkdown
-        escapeHtml={false}
+        // escapeHtml={false}
         source={blog}
         renderers={{ code: CodeBlock }}
         remarkPlugins={[remarkGfm]}

@@ -1,4 +1,4 @@
-## Just thougths in Quarantine
+# Just thougths in Quarantine
 
 \*\* _these are my personal thoughts and doesn't belong to any group or ideology_
 

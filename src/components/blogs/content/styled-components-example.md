@@ -1,14 +1,12 @@
-## Styled Components Example with ReactJS
+![wallpaper](/images/blogs/styled.png)
 
-| Date             | Author |
-| :--------------- | -----: |
-| January 19, 2022 |   Ulan |
+# Styled Components Example with ReactJS
 
-<!-- - **Date:** January 19, 2022 -->
+_January 19, 2022 by Ulan Rakymzhanov_
 
 Styled Components is one of the great ways to apply CSS into React apps. So we are going to do that in this blog.
 
-##### Prerequisites:
+Prerequisites:
 
 - ReactJS, CSS, JS, HTML knowledge is required.
 
