@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BlogWrapper = styled.div`
-  font-family: "Roboto", sans-serif;
+  font-family: var(--blogFont);
   text-align: left;
   color: var(--blogColor);
   padding-top: 20px;
@@ -22,6 +22,12 @@ export const BlogWrapper = styled.div`
   }
   img {
     width: 100%;
+  }
+  .page-nav-icons {
+    color: #4682b4;
+    font-size: 28px;
+    font-weight: 900;
+    cursor: pointer;
   }
 `;
 
@@ -58,6 +64,6 @@ export const Button = styled.button`
 
 export const Aligner = styled.div`
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
 `;

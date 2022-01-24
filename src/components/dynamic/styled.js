@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const SideNav = styled.div`
   top: 0;
   left: 0;
-  background-color: var(--sibebarBgColor);
+  background-color: var(--mainBlack);
   padding-top: 60px;
   min-height: 100vh;
   height: 100vh;

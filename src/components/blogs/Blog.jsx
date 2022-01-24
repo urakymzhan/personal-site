@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
-import { BlogWrapper, Button, Aligner } from "./styled";
-// import Navigator from "../utils/Navigator";
+import { BlogWrapper, Aligner } from "./styled";
 import remarkGfm from "remark-gfm";
 import ShareButtons from "./ShareButtons";
 import PageHeader from "../utils/Helmet";
+import { BsArrowUpCircleFill, BsArrowLeftCircleFill } from "react-icons/bs";
+
 // Code highlighter theme
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
@@ -49,18 +50,24 @@ function Blog() {
     <BlogWrapper pagetitle={pagetitle}>
       <PageHeader title={pagetitle} />
       <Aligner>
-        <Button type="button" onClick={() => navigate(-1)}>
-          go back
-        </Button>
+        <BsArrowLeftCircleFill
+          onClick={() => navigate(-1)}
+          className="page-nav-icons"
+        />
         <ShareButtons />
       </Aligner>
       <ReactMarkdown
-        // escapeHtml={false}
         source={blog}
         renderers={{ code: CodeBlock }}
         remarkPlugins={[remarkGfm]}
       />
-      <ShareButtons />
+      <Aligner>
+        <BsArrowUpCircleFill
+          onClick={() => window.scrollTo(0, 0)}
+          className="page-nav-icons"
+        />
+        <ShareButtons />
+      </Aligner>
     </BlogWrapper>
   );
 }

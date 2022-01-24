@@ -11,13 +11,14 @@ import {
 } from "react-share";
 import { ShareButtonsContainer } from "./styled";
 
+const shareBtnSize = 28;
 function ShareButtons({ pagetitle }) {
   let fullPageUrl = window.location.href;
   return (
     <ShareButtonsContainer>
       <div>
         <FacebookShareButton quote={pagetitle} url={fullPageUrl}>
-          <FacebookIcon size={18} round={true} />
+          <FacebookIcon size={shareBtnSize} round={true} />
         </FacebookShareButton>
         <div className="count">
           <FacebookShareCount url={fullPageUrl} />
@@ -25,12 +26,12 @@ function ShareButtons({ pagetitle }) {
       </div>
       <div>
         <TwitterShareButton quote={pagetitle} url={fullPageUrl}>
-          <TwitterIcon size={18} round={true} />
+          <TwitterIcon size={shareBtnSize} round={true} />
         </TwitterShareButton>
       </div>
       <div>
         <RedditShareButton quote={pagetitle} url={fullPageUrl}>
-          <RedditIcon size={18} round={true} />
+          <RedditIcon size={shareBtnSize} round={true} />
         </RedditShareButton>
         <div className="count">
           <RedditShareCount url={fullPageUrl} />

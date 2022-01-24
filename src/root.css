@@ -4,15 +4,15 @@
 }
 :root {
   --font: monaco, Consolas, "Lucida Console", monospace;
-  /* --sibebarBgColor: #333; */
-  --sibebarBgColor: #000;
+  --mainBlack: #000;
+  --blogFont: "Roboto", sans-serif;
+  --blogColor: #4d4d4d;
+  --blogHeaderColor: #1d1d1d;
   --mainFont: 12px;
   --sidebarColor: #dadada;
   --white: #fff;
   --darkred: darkred;
   --yellowgreen: yellowgreen;
-  --blogColor: #4d4d4d;
-  --blogHeaderColor: #1d1d1d;
 }
 * {
   box-sizing: border-box;

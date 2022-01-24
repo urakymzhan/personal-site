@@ -40,10 +40,8 @@ export const ProjectsWrapper = styled.div`
     cursor: pointer;
     margin-bottom: 8px;
   }
-  .project-card img {
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
+  .navigate-icon {
+    font-size: 14px;
   }
   .project-card a {
     font-size: 18px;
@@ -67,6 +65,9 @@ export const ProjectsWrapper = styled.div`
   .project-card:hover p {
     color: #fff;
   }
+  #stack {
+    font-size: 14px;
+  }
   #stack span {
     background-color: #3f51b5;
     padding: 1px 5px;
@@ -83,9 +84,8 @@ export const ProjectsWrapper = styled.div`
       flex-basis: 100%;
       margin-bottom: 10px;
     }
-    .project-card img {
-      width: 10px;
-      height: 10px;
+    .navigate-icon {
+      font-size: 12px;
     }
     .project-card a {
       font-size: 12px;
