@@ -51,7 +51,7 @@ function Blog() {
       <PageHeader title={pagetitle} />
       <Aligner>
         <BsArrowLeftCircleFill
-          onClick={() => navigate(-1)}
+          onClick={() => navigate("/blogs")}
           className="page-nav-icons"
         />
         <ShareButtons />

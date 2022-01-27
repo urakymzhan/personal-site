@@ -24,4 +24,10 @@ export const blogs = [
     title: "Crypto Market Terms Analysis",
     tag: "crypto",
   },
+  {
+    id: 5,
+    link: "linkedlist-implementation-in-javascript",
+    title: "Linkedlist Implementation In Javascript",
+    tag: "programming",
+  },
 ];
