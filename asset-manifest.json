@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0784130e.chunk.css",
+    "main.js": "/static/js/main.e556c224.chunk.js",
+    "main.js.map": "/static/js/main.e556c224.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a428271.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a428271.js.map",
+    "static/js/2.58590f00.chunk.js": "/static/js/2.58590f00.chunk.js",
+    "static/js/2.58590f00.chunk.js.map": "/static/js/2.58590f00.chunk.js.map",
+    "static/js/3.2a6ae1f4.chunk.js": "/static/js/3.2a6ae1f4.chunk.js",
+    "static/js/3.2a6ae1f4.chunk.js.map": "/static/js/3.2a6ae1f4.chunk.js.map",
+    "static/js/4.8b7e1bd0.chunk.js": "/static/js/4.8b7e1bd0.chunk.js",
+    "static/js/4.8b7e1bd0.chunk.js.map": "/static/js/4.8b7e1bd0.chunk.js.map",
+    "static/js/5.02e12c6d.chunk.js": "/static/js/5.02e12c6d.chunk.js",
+    "static/js/5.02e12c6d.chunk.js.map": "/static/js/5.02e12c6d.chunk.js.map",
+    "static/js/6.5042caaf.chunk.js": "/static/js/6.5042caaf.chunk.js",
+    "static/js/6.5042caaf.chunk.js.map": "/static/js/6.5042caaf.chunk.js.map",
+    "static/js/7.e2fe479f.chunk.js": "/static/js/7.e2fe479f.chunk.js",
+    "static/js/7.e2fe479f.chunk.js.map": "/static/js/7.e2fe479f.chunk.js.map",
+    "static/js/8.a4623908.chunk.js": "/static/js/8.a4623908.chunk.js",
+    "static/js/8.a4623908.chunk.js.map": "/static/js/8.a4623908.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0784130e.chunk.css.map": "/static/css/main.0784130e.chunk.css.map",
+    "static/js/2.58590f00.chunk.js.LICENSE.txt": "/static/js/2.58590f00.chunk.js.LICENSE.txt",
+    "static/media/crypto-market-terms-analysis.md": "/static/media/crypto-market-terms-analysis.a9275833.md",
+    "static/media/feedback.a073a298.png": "/static/media/feedback.a073a298.png",
+    "static/media/just-thoughts-in-quarantine.md": "/static/media/just-thoughts-in-quarantine.b3ed1794.md",
+    "static/media/linkedIn.svg": "/static/media/linkedIn.5ad63462.svg",
+    "static/media/linkedlist-implementation-in-javascript.md": "/static/media/linkedlist-implementation-in-javascript.2d503d11.md",
+    "static/media/my-story-and-advise-on-career.md": "/static/media/my-story-and-advise-on-career.ecb02dc6.md",
+    "static/media/profile.ccadc601.jpeg": "/static/media/profile.ccadc601.jpeg",
+    "static/media/styled-components-example.md": "/static/media/styled-components-example.3d58565d.md",
+    "static/media/twitter.svg": "/static/media/twitter.5fb37b1e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a428271.js",
+    "static/js/2.58590f00.chunk.js",
+    "static/css/main.0784130e.chunk.css",
+    "static/js/main.e556c224.chunk.js"
+  ]
+}

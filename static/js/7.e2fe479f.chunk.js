@@ -1,0 +1,2 @@
+(this.webpackJsonpmy=this.webpackJsonpmy||[]).push([[7],{509:function(e,t,c){"use strict";c.r(t),c.d(t,"default",(function(){return r}));c(1);var n=c(4),s=c(20),i=c(2);function r(){let e=Object(n.n)();return Object(i.jsxs)("div",{children:[Object(i.jsx)(s.a,{title:"No Page Found"}),Object(i.jsxs)("h2",{children:["No Such Page Found for ",Object(i.jsx)("code",{children:e.pathname})]}),Object(i.jsxs)("h1",{children:[" ","<"," 404 ",">"," "]})]})}}}]);
+//# sourceMappingURL=7.e2fe479f.chunk.js.map
