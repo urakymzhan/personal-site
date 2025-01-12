@@ -1,12 +1,13 @@
 {
   "name": "my",
-  "homepage": "http://ulan13.me",
+  "homepage": "https://urakymzhan.github.io/personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "moment": "^2.25.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
     "react-markdown": "^4.3.1",
@@ -19,6 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "18"
   }
 }
