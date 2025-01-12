@@ -1,6 +1,6 @@
 {
-  "name": "my",
-  "homepage": "https://urakymzhan.github.io/personal-site",
+  "name": "personal-website",
+  "homepage": "https://urakymzhan.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
