@@ -1,8 +1,8 @@
-# personal-site
+# Personal Site
 
 Code for my [website](https://ulan13.me) 🌐
 
-# Versions
+#### Versions
 - node 16
 - react 16
 
@@ -12,4 +12,7 @@ Code for my [website](https://ulan13.me) 🌐
 - `firebase deploy` (make sure you have firebase.json)
 - `choose build as public directory`
 - `prevent from overwriting index.html`
+
+#### Issues
+- Images are broken in blogs
 
