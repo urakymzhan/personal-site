@@ -2,7 +2,8 @@ import React from "react";
 import { Sidebar } from "./components/dynamic";
 import { Router } from "./components/routes";
 import { Footer, BurgerMenu } from "./components/static";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import ErroBoundary from "./ErrorBoundary";
 
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
   const node = React.useRef();
 
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <HashRouter>
       <ErroBoundary>
         <div ref={node}>
           <BurgerMenu open={open} setOpen={setOpen} />
@@ -19,7 +21,8 @@ const App = () => {
         <Router />
         <Footer open={open} />
       </ErroBoundary>
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
+    </HashRouter>
   );
 };
 export default App;
