@@ -42,6 +42,31 @@ export const teachingVideos = [
 
 export const projects = [
   {
+    title: "Client Projects",
+    content: [
+      {
+        title: "Cayu Technologies",
+        definition: "Rethinking Enterprise Solutions With AI",
+        projectUrl: "https://www.cayu.ai/",
+      },
+      {
+        title: "EAlaws",
+        definition: "Law company website",
+        projectUrl: "https://ealaws.com/",
+      },
+      {
+        title: "Noname Shawarma",
+        definition: "Food truck company based in Glendale, CA",
+        projectUrl: "https://urakymzhan.github.io/nonameshawarma/",
+      },
+      {
+        title: "SilkroadBites",
+        definition: "Central Asian Cuisine in Bay Area",
+        projectUrl: "https://silkroadbites.com/",
+      },
+    ],
+  },
+  {
     title: "Side Projects",
     content: [
       {
@@ -69,26 +94,6 @@ export const projects = [
         title: "Uber 2.0",
         definition: "Famous Uber mobile app clone using React Native",
         projectUrl: "https://github.com/urakymzhan/uber",
-      },
-    ],
-  },
-  {
-    title: "Client Projects",
-    content: [
-      {
-        title: "SilkroadBites",
-        definition: "Central Asian Cuisine in Bay Area",
-        projectUrl: "https://silkroadbites.com/",
-      },
-      {
-        title: "EAlaws",
-        definition: "Law company website",
-        projectUrl: "https://ealaws.com/",
-      },
-      {
-        title: "Noname Shawarma",
-        definition: "Food truck company based in Glendale, CA",
-        projectUrl: "https://urakymzhan.github.io/nonameshawarma/",
       },
     ],
   },

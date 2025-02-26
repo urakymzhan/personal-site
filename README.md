@@ -6,6 +6,9 @@ Code for my [website](https://ulan13.me) 🌐
 - node 16
 - react 16
 
+#### deployed in github pages
+
+
 #### deploy in firebase:
 
 - **Steps**

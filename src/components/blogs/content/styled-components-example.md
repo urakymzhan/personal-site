@@ -1,4 +1,4 @@
-![wallpaper](/images/blogs/styled.png)
+![wallpaper](/personal-site/images/blogs/styled.png)
 
 # Styled Components Example with ReactJS
 
@@ -12,7 +12,7 @@ Prerequisites:
 
 Imagine if you wanted to build something like this using styled components:
 
-![cards](/images/st-cp.png)
+![cards](/personal-site/images/st-cp.png)
 
 How would you do that?
 

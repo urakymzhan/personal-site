@@ -14,7 +14,7 @@ function Projects() {
       <p id="stack">
         <span>High Level Stack:</span> JavaScript, ReactJS, React
         Native(Mobile), NextJS, GatsbyJS, Socket.IO, HTML, CSS and backend
-        integrations.
+        integrations. No code platforms.
       </p>
       <div className="row">
         {projects?.map((project, idx) => {

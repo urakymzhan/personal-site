@@ -1,4 +1,4 @@
-![wallpaper](/images/blogs/ll.png)
+![wallpaper](/personal-site/images/blogs/ll.png)
 
 # Implement LinkedList in JavaScript
 
@@ -65,7 +65,7 @@ Lets do that now.
 4. Increase the size of ll
 5. return ll
 
-![addToEnd](/images/blogs/addToEnd.png)
+![addToEnd](/personal-site/images/blogs/addToEnd.png)
 
 #### Implement `removeFromEnd` method:
 
@@ -73,7 +73,7 @@ Lets do that now.
 2. Check if only single node exists, if yes point head and tail to null and return true, null, removed node.
 3. Decrease the size of ll
 
-![removeFromEnd](/images/blogs/removeFromEnd.png)
+![removeFromEnd](/personal-site/images/blogs/removeFromEnd.png)
 
 Then simply test them out:
 

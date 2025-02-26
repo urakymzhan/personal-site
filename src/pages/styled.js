@@ -17,6 +17,10 @@ export const HomeWrapper = styled.div`
   code {
     text-shadow: 0 0 20px var(--darkred);
   }
+  a {
+    font-size: 20px;
+    font-weight: 900;
+}
 `;
 
 // Projects

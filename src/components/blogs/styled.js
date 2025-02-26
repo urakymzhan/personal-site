@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const BlogWrapper = styled.div`
+  max-width: 70%;
+  margin: 0 auto;
   font-family: var(--blogFont);
   text-align: left;
   color: var(--blogColor);
@@ -22,6 +24,8 @@ export const BlogWrapper = styled.div`
   }
   img {
     width: 100%;
+    max-height: 340px;
+    object-fit: cover;
   }
   .page-nav-icons {
     color: #4682b4;
