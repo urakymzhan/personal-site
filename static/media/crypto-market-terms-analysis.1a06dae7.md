@@ -1,4 +1,4 @@
-![wallpaper](/images/blogs/crypto.jpeg)
+![wallpaper](/personal-site/images/blogs/crypto.jpeg)
 
 # Crypto Market Terms Analysis
 
