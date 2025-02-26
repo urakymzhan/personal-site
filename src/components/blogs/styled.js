@@ -33,6 +33,10 @@ export const BlogWrapper = styled.div`
     font-weight: 900;
     cursor: pointer;
   }
+  /** Media query for small screens **/
+  @media (max-width: 768px) {
+      max-width: 90%;
+  }
 `;
 
 export const ShareButtonsContainer = styled.div`

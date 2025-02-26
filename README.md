@@ -7,7 +7,7 @@ Code for my [website](https://ulan13.me) 🌐
 - react 16
 
 #### deployed in github pages
-
+- npm run deploy
 
 #### deploy in firebase:
 
