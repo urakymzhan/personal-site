@@ -35,6 +35,8 @@ export const ProjectsWrapper = styled.div`
   }
   .row {
     margin-bottom: 20px;
+    width: 60%;
+    margin: 0 auto;
   }
   .project-card {
     background-image: linear-gradient(to right, #998d23, #23998d);
@@ -53,7 +55,9 @@ export const ProjectsWrapper = styled.div`
   }
   .project-card p {
     color: #333;
-    font-size: 12px;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
   }
   .project-card:hover {
     background: #333;
@@ -83,6 +87,7 @@ export const ProjectsWrapper = styled.div`
   @media (max-width: 700px) {
     .row {
       margin-bottom: 0;
+      width:100%;
     }
     .project-card {
       flex-basis: 100%;
@@ -94,9 +99,6 @@ export const ProjectsWrapper = styled.div`
     .project-card a {
       font-size: 12px;
       color: inherit;
-    }
-    .project-card p {
-      font-size: 10px;
     }
   }
 `;

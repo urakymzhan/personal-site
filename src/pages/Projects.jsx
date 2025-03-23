@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectsWrapper } from "./styled";
-import { projects } from "../components/utils/dataStore";
+import { projects } from "./dataStore";
 import PageHeader from "../components/utils/Helmet";
 import { IoNavigate } from "react-icons/io5";
 

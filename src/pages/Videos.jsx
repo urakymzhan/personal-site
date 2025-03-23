@@ -1,6 +1,6 @@
 import React from "react";
 import { VideosWrapper } from "./styled";
-import { teachingVideos } from "../components/utils/dataStore";
+import { teachingVideos } from "./dataStore";
 import PageHeader from "../components/utils/Helmet";
 
 const Videos = () => {

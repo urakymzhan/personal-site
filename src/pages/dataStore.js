@@ -64,6 +64,26 @@ export const projects = [
         definition: "Central Asian Cuisine in Bay Area",
         projectUrl: "https://silkroadbites.com/",
       },
+      {
+        title: "Fixinity",
+        definition: "Diagnose your car for FREE",
+        projectUrl: "http://www.fixinity.com/",
+      }
+    ]
+  },
+  {
+    "title": "Recent Learnings",
+    content: [
+      {
+        title: "Image Process AI",
+        definition: "Image Captioning with Generative AI",
+        projectUrl: "https://github.com/urakymzhan/image-process-ai",
+      },
+      {
+        title: "LLM Application Chatbot",
+        definition: "ChatGPT-Like app with python and flask",
+        projectUrl: "https://github.com/urakymzhan/llm-chatbot",
+      }
     ],
   },
   {
@@ -73,11 +93,6 @@ export const projects = [
         title: "Bootcamp Avenue",
         definition: "Bootcamp reviews and informations",
         projectUrl: "https://bootcampavenue.com/",
-      },
-      {
-        title: "Fixinity",
-        definition: "Diagnose your car for FREE",
-        projectUrl: "http://www.fixinity.com/",
       },
       {
         title: "Spotify Web Player",
