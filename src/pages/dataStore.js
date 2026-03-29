@@ -73,7 +73,12 @@ export const projects = [
   },
   {
     "title": "Recent Learnings",
-    content: [
+    content: [      
+      {
+        title: "Chatbot with voice",
+        definition: "Voice Assistant with OpenAI's GPT-3 and IBM Watson",
+        projectUrl: "https://github.com/urakymzhan/chatbot-with-voice",
+      },
       {
         title: "Image Process AI",
         definition: "Image Captioning with Generative AI",
@@ -89,6 +94,11 @@ export const projects = [
   {
     title: "Side Projects",
     content: [
+      {
+        title: "Deals Finder",
+        definition: "Find the best deals online",
+        projectUrl: "https://deals-web.onrender.com",
+      },
       {
         title: "Bootcamp Avenue",
         definition: "Bootcamp reviews and informations",

@@ -6,10 +6,10 @@ Code for my [website](https://ulan13.me) 🌐
 - node 16
 - react 16
 
-#### deployed in github pages
+#### deployed in github pages (active)
 - npm run deploy
 
-#### deploy in firebase:
+#### deploy in firebase (inactive)
 
 - **Steps**
 - `firebase deploy` (make sure you have firebase.json)
